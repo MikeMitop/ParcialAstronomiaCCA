@@ -7,8 +7,9 @@
  *  - Mostrar la definición formal del autómata
  *  - Listar el catálogo de asteroides
  */
-
-const API_BASE = "/api";
+const API_BASE = window.location.hostname.includes("localhost")
+  ? "http://localhost:3000"
+  : "https://parcialastronomiacca.onrender.com";
 
 // ═══════════════════════════════════════════════════════════
 // Starfield Animation
