@@ -1,0 +1,91 @@
+{
+  "entries": {
+    "neo:today:2026-04-06": {
+      "data": [
+        {
+          "id": 3639439,
+          "nombre": "(2013 LB)",
+          "magnitud": 22.8,
+          "diametro": 0.1184520597,
+          "albedo": 0.15,
+          "velocidad": 6.2253128386,
+          "distancia": 23528644.04147128,
+          "peligroso": false,
+          "fecha": "2026-04-06"
+        },
+        {
+          "id": 3671119,
+          "nombre": "(2014 JS54)",
+          "magnitud": 21.21,
+          "diametro": 0.24634435615,
+          "albedo": 0.15,
+          "velocidad": 20.4447380473,
+          "distancia": 65809377.09317943,
+          "peligroso": true,
+          "fecha": "2026-04-06"
+        },
+        {
+          "id": 3844004,
+          "nombre": "(2019 SP2)",
+          "magnitud": 24.02,
+          "diametro": 0.0675371324,
+          "albedo": 0.15,
+          "velocidad": 10.605268316,
+          "distancia": 12933515.730156098,
+          "peligroso": false,
+          "fecha": "2026-04-06"
+        },
+        {
+          "id": 54269642,
+          "nombre": "(2022 GR2)",
+          "magnitud": 23.53,
+          "diametro": 0.08463356150000001,
+          "albedo": 0.15,
+          "velocidad": 34.1200907974,
+          "distancia": 37984978.15459939,
+          "peligroso": false,
+          "fecha": "2026-04-06"
+        },
+        {
+          "id": 54352569,
+          "nombre": "(2023 FT5)",
+          "magnitud": 23.79,
+          "diametro": 0.07508317285,
+          "albedo": 0.15,
+          "velocidad": 20.1664863369,
+          "distancia": 71350628.74405289,
+          "peligroso": false,
+          "fecha": "2026-04-06"
+        },
+        {
+          "id": 54354860,
+          "nombre": "(2023 HH2)",
+          "magnitud": 24.88,
+          "diametro": 0.04545091355,
+          "albedo": 0.15,
+          "velocidad": 14.4234716217,
+          "distancia": 43866022.59264515,
+          "peligroso": false,
+          "fecha": "2026-04-06"
+        },
+        {
+          "id": 54606983,
+          "nombre": "(2026 FP6)",
+          "magnitud": 24.498,
+          "diametro": 0.0541929281,
+          "albedo": 0.15,
+          "velocidad": 4.662658443,
+          "distancia": 26530839.396101534,
+          "peligroso": false,
+          "fecha": "2026-04-06"
+        }
+      ],
+      "timestamp": 1775476990794,
+      "ttl": 3600000
+    }
+  },
+  "meta": {
+    "lastSaved": "2026-04-06T12:03:10.794Z",
+    "totalEntries": 1
+  }
+}

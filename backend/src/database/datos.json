@@ -1,0 +1,5510 @@
+[
+  {
+    "id": 887,
+    "magnitud": 13.4,
+    "diametro": 4.787,
+    "albedo": 0.336
+  },
+  {
+    "id": 3361,
+    "magnitud": 19.03,
+    "diametro": 0.348,
+    "albedo": 0.357
+  },
+  {
+    "id": 3554,
+    "magnitud": 15.82,
+    "diametro": 3.341,
+    "albedo": 0.074
+  },
+  {
+    "id": 3554,
+    "magnitud": 15.82,
+    "diametro": 3.053,
+    "albedo": 0.089
+  },
+  {
+    "id": 3691,
+    "magnitud": 14.9,
+    "diametro": 1.803,
+    "albedo": 0.593
+  },
+  {
+    "id": 3752,
+    "magnitud": 15.5,
+    "diametro": 2.306,
+    "albedo": 0.21
+  },
+  {
+    "id": 4015,
+    "magnitud": 15.99,
+    "diametro": 3.821,
+    "albedo": 0.046
+  },
+  {
+    "id": 4055,
+    "magnitud": 14.6,
+    "diametro": 2.781,
+    "albedo": 0.33
+  },
+  {
+    "id": 4183,
+    "magnitud": 14.4,
+    "diametro": 5.618,
+    "albedo": 0.097
+  },
+  {
+    "id": 4197,
+    "magnitud": 14.6,
+    "diametro": 3.043,
+    "albedo": 0.276
+  },
+  {
+    "id": 4486,
+    "magnitud": 15.6,
+    "diametro": 1.849,
+    "albedo": 0.297
+  },
+  {
+    "id": 5143,
+    "magnitud": 13.8,
+    "diametro": 4.843,
+    "albedo": 0.227
+  },
+  {
+    "id": 5370,
+    "magnitud": 15.2,
+    "diametro": 5.308,
+    "albedo": 0.051
+  },
+  {
+    "id": 5370,
+    "magnitud": 15.2,
+    "diametro": 6.333,
+    "albedo": 0.037
+  },
+  {
+    "id": 5587,
+    "magnitud": 13.7,
+    "diametro": 4.859,
+    "albedo": 0.248
+  },
+  {
+    "id": 5604,
+    "magnitud": 16.4,
+    "diametro": 0.962,
+    "albedo": 0.527
+  },
+  {
+    "id": 5604,
+    "magnitud": 16.4,
+    "diametro": 0.973,
+    "albedo": 0.513
+  },
+  {
+    "id": 5645,
+    "magnitud": 16.8,
+    "diametro": 1.668,
+    "albedo": 0.121
+  },
+  {
+    "id": 5646,
+    "magnitud": 14.3,
+    "diametro": 2.723,
+    "albedo": 0.454
+  },
+  {
+    "id": 5653,
+    "magnitud": 16.1,
+    "diametro": 1.537,
+    "albedo": 0.271
+  },
+  {
+    "id": 5731,
+    "magnitud": 15.8,
+    "diametro": 5.231,
+    "albedo": 0.031
+  },
+  {
+    "id": 6050,
+    "magnitud": 14.7,
+    "diametro": 3.542,
+    "albedo": 0.186
+  },
+  {
+    "id": 6178,
+    "magnitud": 15.1,
+    "diametro": 3.199,
+    "albedo": 0.161
+  },
+  {
+    "id": 6455,
+    "magnitud": 13.9,
+    "diametro": 4.626,
+    "albedo": 0.227
+  },
+  {
+    "id": 7335,
+    "magnitud": 17,
+    "diametro": 0.932,
+    "albedo": 0.322
+  },
+  {
+    "id": 7350,
+    "magnitud": 17,
+    "diametro": 2.363,
+    "albedo": 0.05
+  },
+  {
+    "id": 7822,
+    "magnitud": 17.4,
+    "diametro": 1.208,
+    "albedo": 0.133
+  },
+  {
+    "id": 7822,
+    "magnitud": 17.4,
+    "diametro": 1.602,
+    "albedo": 0.075
+  },
+  {
+    "id": 7839,
+    "magnitud": 18,
+    "diametro": 0.784,
+    "albedo": 0.181
+  },
+  {
+    "id": 8201,
+    "magnitud": 16.3,
+    "diametro": 1.859,
+    "albedo": 0.154
+  },
+  {
+    "id": 8566,
+    "magnitud": 16.3,
+    "diametro": 1.568,
+    "albedo": 0.217
+  },
+  {
+    "id": 9162,
+    "magnitud": 18,
+    "diametro": 1.127,
+    "albedo": 0.088
+  },
+  {
+    "id": 9202,
+    "magnitud": 16,
+    "diametro": 1.617,
+    "albedo": 0.269
+  },
+  {
+    "id": 11066,
+    "magnitud": 15.2,
+    "diametro": 2.778,
+    "albedo": 0.19
+  },
+  {
+    "id": 11398,
+    "magnitud": 16.3,
+    "diametro": 1.316,
+    "albedo": 0.318
+  },
+  {
+    "id": 11500,
+    "magnitud": 18.4,
+    "diametro": 0.738,
+    "albedo": 0.142
+  },
+  {
+    "id": 12538,
+    "magnitud": 16.1,
+    "diametro": 1.663,
+    "albedo": 0.232
+  },
+  {
+    "id": 12923,
+    "magnitud": 15.8,
+    "diametro": 2.06,
+    "albedo": 0.199
+  },
+  {
+    "id": 16064,
+    "magnitud": 16.8,
+    "diametro": 4.106,
+    "albedo": 0.02
+  },
+  {
+    "id": 17182,
+    "magnitud": 17.2,
+    "diametro": 2.885,
+    "albedo": 0.028
+  },
+  {
+    "id": 17188,
+    "magnitud": 16.4,
+    "diametro": 1.819,
+    "albedo": 0.147
+  },
+  {
+    "id": 17274,
+    "magnitud": 16.7,
+    "diametro": 3.183,
+    "albedo": 0.037
+  },
+  {
+    "id": 19764,
+    "magnitud": 15.8,
+    "diametro": 1.572,
+    "albedo": 0.342
+  },
+  {
+    "id": 20460,
+    "magnitud": 15.2,
+    "diametro": 2.716,
+    "albedo": 0.199
+  },
+  {
+    "id": 21088,
+    "magnitud": 14.2,
+    "diametro": 4.231,
+    "albedo": 0.206
+  },
+  {
+    "id": 25916,
+    "magnitud": 13.3,
+    "diametro": 5.683,
+    "albedo": 0.262
+  },
+  {
+    "id": 26760,
+    "magnitud": 15.4,
+    "diametro": 5.4,
+    "albedo": 0.042
+  },
+  {
+    "id": 27346,
+    "magnitud": 15.9,
+    "diametro": 1.753,
+    "albedo": 0.256
+  },
+  {
+    "id": 29075,
+    "magnitud": 17,
+    "diametro": 2,
+    "albedo": 0.07
+  },
+  {
+    "id": 36183,
+    "magnitud": 16.4,
+    "diametro": 2.02,
+    "albedo": 0.119
+  },
+  {
+    "id": 36183,
+    "magnitud": 16.4,
+    "diametro": 2.339,
+    "albedo": 0.089
+  },
+  {
+    "id": 40263,
+    "magnitud": 17.6,
+    "diametro": 0.954,
+    "albedo": 0.177
+  },
+  {
+    "id": 40267,
+    "magnitud": 15.4,
+    "diametro": 1.641,
+    "albedo": 0.453
+  },
+  {
+    "id": 41429,
+    "magnitud": 20.5,
+    "diametro": 0.204,
+    "albedo": 0.267
+  },
+  {
+    "id": 52750,
+    "magnitud": 16.5,
+    "diametro": 1.059,
+    "albedo": 0.393
+  },
+  {
+    "id": 52762,
+    "magnitud": 14.7,
+    "diametro": 6.742,
+    "albedo": 0.051
+  },
+  {
+    "id": 54401,
+    "magnitud": 17.1,
+    "diametro": 1.189,
+    "albedo": 0.181
+  },
+  {
+    "id": 54789,
+    "magnitud": 14.8,
+    "diametro": 1.567,
+    "albedo": 0.856
+  },
+  {
+    "id": 55408,
+    "magnitud": 18.5,
+    "diametro": 0.461,
+    "albedo": 0.342
+  },
+  {
+    "id": 66008,
+    "magnitud": 16,
+    "diametro": 1.484,
+    "albedo": 0.319
+  },
+  {
+    "id": 66251,
+    "magnitud": 17,
+    "diametro": 1.222,
+    "albedo": 0.187
+  },
+  {
+    "id": 66272,
+    "magnitud": 17.1,
+    "diametro": 0.763,
+    "albedo": 0.459
+  },
+  {
+    "id": 66272,
+    "magnitud": 17.1,
+    "diametro": 0.808,
+    "albedo": 0.428
+  },
+  {
+    "id": 66272,
+    "magnitud": 17.1,
+    "diametro": 0.845,
+    "albedo": 0.4
+  },
+  {
+    "id": 66400,
+    "magnitud": 19.4,
+    "diametro": 0.411,
+    "albedo": 0.182
+  },
+  {
+    "id": 68350,
+    "magnitud": 16,
+    "diametro": 1.794,
+    "albedo": 0.219
+  },
+  {
+    "id": 85628,
+    "magnitud": 16.9,
+    "diametro": 1.007,
+    "albedo": 0.302
+  },
+  {
+    "id": 85709,
+    "magnitud": 16,
+    "diametro": 2.23,
+    "albedo": 0.141
+  },
+  {
+    "id": 85713,
+    "magnitud": 15.7,
+    "diametro": 3.484,
+    "albedo": 0.076
+  },
+  {
+    "id": 85804,
+    "magnitud": 15.3,
+    "diametro": 2.37,
+    "albedo": 0.239
+  },
+  {
+    "id": 85818,
+    "magnitud": 15.4,
+    "diametro": 2.028,
+    "albedo": 0.297
+  },
+  {
+    "id": 85818,
+    "magnitud": 15.4,
+    "diametro": 2.693,
+    "albedo": 0.168
+  },
+  {
+    "id": 85839,
+    "magnitud": 16.3,
+    "diametro": 1.14,
+    "albedo": 0.405
+  },
+  {
+    "id": 85989,
+    "magnitud": 17.1,
+    "diametro": 1.462,
+    "albedo": 0.127
+  },
+  {
+    "id": 85990,
+    "magnitud": 19.9,
+    "diametro": 0.451,
+    "albedo": 0.095
+  },
+  {
+    "id": 86067,
+    "magnitud": 16.4,
+    "diametro": 1.245,
+    "albedo": 0.314
+  },
+  {
+    "id": 86326,
+    "magnitud": 17.5,
+    "diametro": 1.348,
+    "albedo": 0.098
+  },
+  {
+    "id": 87311,
+    "magnitud": 16.3,
+    "diametro": 1.948,
+    "albedo": 0.142
+  },
+  {
+    "id": 88188,
+    "magnitud": 16,
+    "diametro": 1.371,
+    "albedo": 0.374
+  },
+  {
+    "id": 88263,
+    "magnitud": 15.3,
+    "diametro": 4.876,
+    "albedo": 0.059
+  },
+  {
+    "id": 88263,
+    "magnitud": 15.3,
+    "diametro": 5.748,
+    "albedo": 0.037
+  },
+  {
+    "id": 89959,
+    "magnitud": 16.5,
+    "diametro": 1.407,
+    "albedo": 0.224
+  },
+  {
+    "id": 90367,
+    "magnitud": 17.7,
+    "diametro": 1.739,
+    "albedo": 0.048
+  },
+  {
+    "id": 90367,
+    "magnitud": 17.7,
+    "diametro": 1.748,
+    "albedo": 0.048
+  },
+  {
+    "id": 96189,
+    "magnitud": 16.3,
+    "diametro": 3.605,
+    "albedo": 0.041
+  },
+  {
+    "id": 103067,
+    "magnitud": 16.6,
+    "diametro": 1.282,
+    "albedo": 0.246
+  },
+  {
+    "id": 105141,
+    "magnitud": 18.8,
+    "diametro": 0.352,
+    "albedo": 0.431
+  },
+  {
+    "id": 136874,
+    "magnitud": 15.8,
+    "diametro": 3.398,
+    "albedo": 0.073
+  },
+  {
+    "id": 137062,
+    "magnitud": 16.5,
+    "diametro": 1.265,
+    "albedo": 0.284
+  },
+  {
+    "id": 137805,
+    "magnitud": 16.6,
+    "diametro": 3.879,
+    "albedo": 0.027
+  },
+  {
+    "id": 137924,
+    "magnitud": 17.2,
+    "diametro": 0.97,
+    "albedo": 0.247
+  },
+  {
+    "id": 138013,
+    "magnitud": 14.8,
+    "diametro": 3.518,
+    "albedo": 0.172
+  },
+  {
+    "id": 138359,
+    "magnitud": 18,
+    "diametro": 1.085,
+    "albedo": 0.095
+  },
+  {
+    "id": 138847,
+    "magnitud": 16.7,
+    "diametro": 0.965,
+    "albedo": 0.396
+  },
+  {
+    "id": 138883,
+    "magnitud": 16.7,
+    "diametro": 1.222,
+    "albedo": 0.247
+  },
+  {
+    "id": 139289,
+    "magnitud": 17.6,
+    "diametro": 1.126,
+    "albedo": 0.127
+  },
+  {
+    "id": 139345,
+    "magnitud": 16.7,
+    "diametro": 3.101,
+    "albedo": 0.038
+  },
+  {
+    "id": 140158,
+    "magnitud": 18.2,
+    "diametro": 0.566,
+    "albedo": 0.289
+  },
+  {
+    "id": 141432,
+    "magnitud": 19.9,
+    "diametro": 0.239,
+    "albedo": 0.34
+  },
+  {
+    "id": 141531,
+    "magnitud": 19,
+    "diametro": 0.303,
+    "albedo": 0.482
+  },
+  {
+    "id": 142464,
+    "magnitud": 18.2,
+    "diametro": 0.886,
+    "albedo": 0.118
+  },
+  {
+    "id": 142563,
+    "magnitud": 17,
+    "diametro": 0.86,
+    "albedo": 0.378
+  },
+  {
+    "id": 144901,
+    "magnitud": 17.4,
+    "diametro": 2.24,
+    "albedo": 0.038
+  },
+  {
+    "id": 152558,
+    "magnitud": 16.8,
+    "diametro": 1.519,
+    "albedo": 0.146
+  },
+  {
+    "id": 152558,
+    "magnitud": 16.8,
+    "diametro": 1.361,
+    "albedo": 0.182
+  },
+  {
+    "id": 152558,
+    "magnitud": 16.8,
+    "diametro": 1.379,
+    "albedo": 0.177
+  },
+  {
+    "id": 152564,
+    "magnitud": 20.3,
+    "diametro": 0.282,
+    "albedo": 0.169
+  },
+  {
+    "id": 152671,
+    "magnitud": 20,
+    "diametro": 0.298,
+    "albedo": 0.2
+  },
+  {
+    "id": 152679,
+    "magnitud": 16.6,
+    "diametro": 4.692,
+    "albedo": 0.018
+  },
+  {
+    "id": 152754,
+    "magnitud": 19.2,
+    "diametro": 0.414,
+    "albedo": 0.216
+  },
+  {
+    "id": 152889,
+    "magnitud": 16.6,
+    "diametro": 1.022,
+    "albedo": 0.388
+  },
+  {
+    "id": 152931,
+    "magnitud": 16.1,
+    "diametro": 1.646,
+    "albedo": 0.237
+  },
+  {
+    "id": 152941,
+    "magnitud": 17.8,
+    "diametro": 0.82,
+    "albedo": 0.205
+  },
+  {
+    "id": 152964,
+    "magnitud": 17.3,
+    "diametro": 0.788,
+    "albedo": 0.342
+  },
+  {
+    "id": 152978,
+    "magnitud": 19.4,
+    "diametro": 0.531,
+    "albedo": 0.109
+  },
+  {
+    "id": 153201,
+    "magnitud": 19.3,
+    "diametro": 0.51,
+    "albedo": 0.129
+  },
+  {
+    "id": 153219,
+    "magnitud": 18.4,
+    "diametro": 1.289,
+    "albedo": 0.046
+  },
+  {
+    "id": 153249,
+    "magnitud": 15,
+    "diametro": 3.16,
+    "albedo": 0.177
+  },
+  {
+    "id": 153271,
+    "magnitud": 17.2,
+    "diametro": 2.441,
+    "albedo": 0.039
+  },
+  {
+    "id": 153814,
+    "magnitud": 18.3,
+    "diametro": 0.932,
+    "albedo": 0.097
+  },
+  {
+    "id": 153842,
+    "magnitud": 16.2,
+    "diametro": 1.759,
+    "albedo": 0.193
+  },
+  {
+    "id": 154029,
+    "magnitud": 16.4,
+    "diametro": 2.231,
+    "albedo": 0.098
+  },
+  {
+    "id": 154029,
+    "magnitud": 16.4,
+    "diametro": 2.164,
+    "albedo": 0.104
+  },
+  {
+    "id": 154035,
+    "magnitud": 17.5,
+    "diametro": 1.098,
+    "albedo": 0.149
+  },
+  {
+    "id": 154993,
+    "magnitud": 17.8,
+    "diametro": 0.828,
+    "albedo": 0.195
+  },
+  {
+    "id": 159518,
+    "magnitud": 17.9,
+    "diametro": 1.784,
+    "albedo": 0.038
+  },
+  {
+    "id": 159686,
+    "magnitud": 16.3,
+    "diametro": 1.703,
+    "albedo": 0.189
+  },
+  {
+    "id": 159686,
+    "magnitud": 16.3,
+    "diametro": 1.845,
+    "albedo": 0.157
+  },
+  {
+    "id": 161989,
+    "magnitud": 17.1,
+    "diametro": 1.126,
+    "albedo": 0.199
+  },
+  {
+    "id": 161999,
+    "magnitud": 19,
+    "diametro": 0.458,
+    "albedo": 0.211
+  },
+  {
+    "id": 162038,
+    "magnitud": 16.6,
+    "diametro": 1.959,
+    "albedo": 0.105
+  },
+  {
+    "id": 162181,
+    "magnitud": 18.2,
+    "diametro": 0.856,
+    "albedo": 0.127
+  },
+  {
+    "id": 162269,
+    "magnitud": 17,
+    "diametro": 1.01,
+    "albedo": 0.274
+  },
+  {
+    "id": 162463,
+    "magnitud": 17.5,
+    "diametro": 1.048,
+    "albedo": 0.161
+  },
+  {
+    "id": 162483,
+    "magnitud": 17.4,
+    "diametro": 0.958,
+    "albedo": 0.211
+  },
+  {
+    "id": 162483,
+    "magnitud": 17.4,
+    "diametro": 0.906,
+    "albedo": 0.236
+  },
+  {
+    "id": 162566,
+    "magnitud": 15.3,
+    "diametro": 4.521,
+    "albedo": 0.066
+  },
+  {
+    "id": 162566,
+    "magnitud": 15.3,
+    "diametro": 4.299,
+    "albedo": 0.071
+  },
+  {
+    "id": 162903,
+    "magnitud": 18.8,
+    "diametro": 1.086,
+    "albedo": 0.06
+  },
+  {
+    "id": 162998,
+    "magnitud": 17.9,
+    "diametro": 0.875,
+    "albedo": 0.161
+  },
+  {
+    "id": 163132,
+    "magnitud": 18.3,
+    "diametro": 0.46,
+    "albedo": 0.408
+  },
+  {
+    "id": 163243,
+    "magnitud": 16.4,
+    "diametro": 1.552,
+    "albedo": 0.202
+  },
+  {
+    "id": 163243,
+    "magnitud": 16.4,
+    "diametro": 1.682,
+    "albedo": 0.172
+  },
+  {
+    "id": 163691,
+    "magnitud": 17.1,
+    "diametro": 3.449,
+    "albedo": 0.021
+  },
+  {
+    "id": 164207,
+    "magnitud": 21.2,
+    "diametro": 0.163,
+    "albedo": 0.219
+  },
+  {
+    "id": 184990,
+    "magnitud": 16.4,
+    "diametro": 1.884,
+    "albedo": 0.137
+  },
+  {
+    "id": 184990,
+    "magnitud": 16.4,
+    "diametro": 2.039,
+    "albedo": 0.117
+  },
+  {
+    "id": 185716,
+    "magnitud": 17.8,
+    "diametro": 0.629,
+    "albedo": 0.339
+  },
+  {
+    "id": 194268,
+    "magnitud": 18.3,
+    "diametro": 1.244,
+    "albedo": 0.055
+  },
+  {
+    "id": 207945,
+    "magnitud": 19.5,
+    "diametro": 0.423,
+    "albedo": 0.161
+  },
+  {
+    "id": 215442,
+    "magnitud": 18.2,
+    "diametro": 1.075,
+    "albedo": 0.08
+  },
+  {
+    "id": 215442,
+    "magnitud": 18.2,
+    "diametro": 0.785,
+    "albedo": 0.151
+  },
+  {
+    "id": 218017,
+    "magnitud": 19.7,
+    "diametro": 0.451,
+    "albedo": 0.115
+  },
+  {
+    "id": 218863,
+    "magnitud": 16.1,
+    "diametro": 1.419,
+    "albedo": 0.319
+  },
+  {
+    "id": 218863,
+    "magnitud": 16.1,
+    "diametro": 1.237,
+    "albedo": 0.418
+  },
+  {
+    "id": 220124,
+    "magnitud": 18.4,
+    "diametro": 0.609,
+    "albedo": 0.208
+  },
+  {
+    "id": 221980,
+    "magnitud": 19.2,
+    "diametro": 0.432,
+    "albedo": 0.2
+  },
+  {
+    "id": 225416,
+    "magnitud": 17.1,
+    "diametro": 1.651,
+    "albedo": 0.094
+  },
+  {
+    "id": 228502,
+    "magnitud": 20,
+    "diametro": 0.302,
+    "albedo": 0.194
+  },
+  {
+    "id": 230118,
+    "magnitud": 17.3,
+    "diametro": 1.166,
+    "albedo": 0.156
+  },
+  {
+    "id": 230118,
+    "magnitud": 17.3,
+    "diametro": 1.19,
+    "albedo": 0.15
+  },
+  {
+    "id": 230979,
+    "magnitud": 16.5,
+    "diametro": 1.522,
+    "albedo": 0.207
+  },
+  {
+    "id": 232382,
+    "magnitud": 17.4,
+    "diametro": 1.123,
+    "albedo": 0.154
+  },
+  {
+    "id": 232382,
+    "magnitud": 17.4,
+    "diametro": 1.108,
+    "albedo": 0.158
+  },
+  {
+    "id": 234061,
+    "magnitud": 17.6,
+    "diametro": 2.9,
+    "albedo": 0.019
+  },
+  {
+    "id": 234341,
+    "magnitud": 18.7,
+    "diametro": 0.344,
+    "albedo": 0.493
+  },
+  {
+    "id": 235756,
+    "magnitud": 18.8,
+    "diametro": 1.136,
+    "albedo": 0.042
+  },
+  {
+    "id": 237551,
+    "magnitud": 18.2,
+    "diametro": 0.63,
+    "albedo": 0.234
+  },
+  {
+    "id": 238063,
+    "magnitud": 16.4,
+    "diametro": 1.47,
+    "albedo": 0.225
+  },
+  {
+    "id": 238456,
+    "magnitud": 19.3,
+    "diametro": 0.328,
+    "albedo": 0.312
+  },
+  {
+    "id": 239849,
+    "magnitud": 18.6,
+    "diametro": 0.45,
+    "albedo": 0.317
+  },
+  {
+    "id": 241596,
+    "magnitud": 17.1,
+    "diametro": 1.559,
+    "albedo": 0.105
+  },
+  {
+    "id": 242147,
+    "magnitud": 16.9,
+    "diametro": 1.687,
+    "albedo": 0.108
+  },
+  {
+    "id": 242187,
+    "magnitud": 17.9,
+    "diametro": 0.648,
+    "albedo": 0.291
+  },
+  {
+    "id": 242191,
+    "magnitud": 19,
+    "diametro": 0.37,
+    "albedo": 0.334
+  },
+  {
+    "id": 242643,
+    "magnitud": 17.6,
+    "diametro": 1.989,
+    "albedo": 0.041
+  },
+  {
+    "id": 243147,
+    "magnitud": 17.2,
+    "diametro": 0.912,
+    "albedo": 0.28
+  },
+  {
+    "id": 243566,
+    "magnitud": 17.4,
+    "diametro": 1.459,
+    "albedo": 0.091
+  },
+  {
+    "id": 247156,
+    "magnitud": 18,
+    "diametro": 1.971,
+    "albedo": 0.029
+  },
+  {
+    "id": 248083,
+    "magnitud": 16,
+    "diametro": 2.358,
+    "albedo": 0.126
+  },
+  {
+    "id": 248590,
+    "magnitud": 16.6,
+    "diametro": 4.726,
+    "albedo": 0.018
+  },
+  {
+    "id": 248926,
+    "magnitud": 16.8,
+    "diametro": 2.907,
+    "albedo": 0.04
+  },
+  {
+    "id": 250680,
+    "magnitud": 19.7,
+    "diametro": 0.398,
+    "albedo": 0.147
+  },
+  {
+    "id": 252558,
+    "magnitud": 20,
+    "diametro": 0.533,
+    "albedo": 0.062
+  },
+  {
+    "id": 254419,
+    "magnitud": 17.6,
+    "diametro": 0.629,
+    "albedo": 0.408
+  },
+  {
+    "id": 262623,
+    "magnitud": 18.5,
+    "diametro": 0.761,
+    "albedo": 0.122
+  },
+  {
+    "id": 263976,
+    "magnitud": 18.4,
+    "diametro": 0.785,
+    "albedo": 0.125
+  },
+  {
+    "id": 267221,
+    "magnitud": 19.4,
+    "diametro": 0.562,
+    "albedo": 0.097
+  },
+  {
+    "id": 275611,
+    "magnitud": 17.7,
+    "diametro": 2.426,
+    "albedo": 0.025
+  },
+  {
+    "id": 275974,
+    "magnitud": 18.3,
+    "diametro": 0.626,
+    "albedo": 0.216
+  },
+  {
+    "id": 276049,
+    "magnitud": 16.8,
+    "diametro": 3.331,
+    "albedo": 0.03
+  },
+  {
+    "id": 277039,
+    "magnitud": 18.5,
+    "diametro": 0.676,
+    "albedo": 0.156
+  },
+  {
+    "id": 277570,
+    "magnitud": 19.3,
+    "diametro": 0.439,
+    "albedo": 0.177
+  },
+  {
+    "id": 277616,
+    "magnitud": 17.4,
+    "diametro": 1.236,
+    "albedo": 0.127
+  },
+  {
+    "id": 277617,
+    "magnitud": 18.3,
+    "diametro": 0.666,
+    "albedo": 0.19
+  },
+  {
+    "id": 285339,
+    "magnitud": 18.1,
+    "diametro": 0.614,
+    "albedo": 0.268
+  },
+  {
+    "id": 304153,
+    "magnitud": 17.8,
+    "diametro": 2.054,
+    "albedo": 0.033
+  },
+  {
+    "id": 306462,
+    "magnitud": 18.3,
+    "diametro": 0.476,
+    "albedo": 0.379
+  },
+  {
+    "id": 307918,
+    "magnitud": 18.9,
+    "diametro": 0.374,
+    "albedo": 0.358
+  },
+  {
+    "id": 311321,
+    "magnitud": 18.7,
+    "diametro": 0.583,
+    "albedo": 0.172
+  },
+  {
+    "id": 312070,
+    "magnitud": 19.4,
+    "diametro": 0.595,
+    "albedo": 0.087
+  },
+  {
+    "id": 315508,
+    "magnitud": 20.1,
+    "diametro": 0.836,
+    "albedo": 0.023
+  },
+  {
+    "id": 315508,
+    "magnitud": 20.1,
+    "diametro": 0.803,
+    "albedo": 0.026
+  },
+  {
+    "id": 325102,
+    "magnitud": 20.1,
+    "diametro": 0.361,
+    "albedo": 0.124
+  },
+  {
+    "id": 326683,
+    "magnitud": 18.3,
+    "diametro": 0.518,
+    "albedo": 0.315
+  },
+  {
+    "id": 329915,
+    "magnitud": 17.1,
+    "diametro": 1.012,
+    "albedo": 0.249
+  },
+  {
+    "id": 332775,
+    "magnitud": 19.8,
+    "diametro": 0.467,
+    "albedo": 0.098
+  },
+  {
+    "id": 338347,
+    "magnitud": 18.2,
+    "diametro": 1.42,
+    "albedo": 0.046
+  },
+  {
+    "id": 343166,
+    "magnitud": 17.4,
+    "diametro": 0.67,
+    "albedo": 0.431
+  },
+  {
+    "id": 345722,
+    "magnitud": 18,
+    "diametro": 0.653,
+    "albedo": 0.258
+  },
+  {
+    "id": 345813,
+    "magnitud": 17.7,
+    "diametro": 1.464,
+    "albedo": 0.069
+  },
+  {
+    "id": 345813,
+    "magnitud": 17.7,
+    "diametro": 1.377,
+    "albedo": 0.076
+  },
+  {
+    "id": 349074,
+    "magnitud": 18.4,
+    "diametro": 1.081,
+    "albedo": 0.067
+  },
+  {
+    "id": 349925,
+    "magnitud": 17.4,
+    "diametro": 0.92,
+    "albedo": 0.229
+  },
+  {
+    "id": 349925,
+    "magnitud": 17.4,
+    "diametro": 0.943,
+    "albedo": 0.218
+  },
+  {
+    "id": 361538,
+    "magnitud": 18.5,
+    "diametro": 0.479,
+    "albedo": 0.313
+  },
+  {
+    "id": 363024,
+    "magnitud": 19.4,
+    "diametro": 0.558,
+    "albedo": 0.099
+  },
+  {
+    "id": 363626,
+    "magnitud": 18.8,
+    "diametro": 0.633,
+    "albedo": 0.135
+  },
+  {
+    "id": 364762,
+    "magnitud": 19.4,
+    "diametro": 1.047,
+    "albedo": 0.028
+  },
+  {
+    "id": 364877,
+    "magnitud": 17.4,
+    "diametro": 0.786,
+    "albedo": 0.317
+  },
+  {
+    "id": 365071,
+    "magnitud": 18,
+    "diametro": 0.874,
+    "albedo": 0.146
+  },
+  {
+    "id": 365424,
+    "magnitud": 21.8,
+    "diametro": 0.212,
+    "albedo": 0.075
+  },
+  {
+    "id": 365449,
+    "magnitud": 20.4,
+    "diametro": 0.215,
+    "albedo": 0.264
+  },
+  {
+    "id": 366774,
+    "magnitud": 17.7,
+    "diametro": 0.859,
+    "albedo": 0.199
+  },
+  {
+    "id": 367248,
+    "magnitud": 20,
+    "diametro": 0.386,
+    "albedo": 0.119
+  },
+  {
+    "id": 367684,
+    "magnitud": 18.1,
+    "diametro": 0.498,
+    "albedo": 0.412
+  },
+  {
+    "id": 369454,
+    "magnitud": 19.6,
+    "diametro": 0.846,
+    "albedo": 0.036
+  },
+  {
+    "id": 371336,
+    "magnitud": 17.2,
+    "diametro": 1.137,
+    "albedo": 0.18
+  },
+  {
+    "id": 374449,
+    "magnitud": 19.4,
+    "diametro": 0.414,
+    "albedo": 0.179
+  },
+  {
+    "id": 380188,
+    "magnitud": 18.6,
+    "diametro": 1.312,
+    "albedo": 0.037
+  },
+  {
+    "id": 381989,
+    "magnitud": 20.4,
+    "diametro": 0.783,
+    "albedo": 0.02
+  },
+  {
+    "id": 385402,
+    "magnitud": 17,
+    "diametro": 1.597,
+    "albedo": 0.11
+  },
+  {
+    "id": 386720,
+    "magnitud": 17.1,
+    "diametro": 1.022,
+    "albedo": 0.244
+  },
+  {
+    "id": 386720,
+    "magnitud": 17.1,
+    "diametro": 0.964,
+    "albedo": 0.275
+  },
+  {
+    "id": 386847,
+    "magnitud": 18.2,
+    "diametro": 0.663,
+    "albedo": 0.211
+  },
+  {
+    "id": 388189,
+    "magnitud": 20.4,
+    "diametro": 0.315,
+    "albedo": 0.123
+  },
+  {
+    "id": 390725,
+    "magnitud": 19.7,
+    "diametro": 0.293,
+    "albedo": 0.271
+  },
+  {
+    "id": 391151,
+    "magnitud": 17.1,
+    "diametro": 1.745,
+    "albedo": 0.084
+  },
+  {
+    "id": 394130,
+    "magnitud": 17.2,
+    "diametro": 1.218,
+    "albedo": 0.157
+  },
+  {
+    "id": 394392,
+    "magnitud": 18.5,
+    "diametro": 0.636,
+    "albedo": 0.174
+  },
+  {
+    "id": 395143,
+    "magnitud": 18.9,
+    "diametro": 0.636,
+    "albedo": 0.124
+  },
+  {
+    "id": 395207,
+    "magnitud": 20,
+    "diametro": 0.886,
+    "albedo": 0.022
+  },
+  {
+    "id": 397237,
+    "magnitud": 16.7,
+    "diametro": 1.18,
+    "albedo": 0.269
+  },
+  {
+    "id": 398188,
+    "magnitud": 19.5,
+    "diametro": 0.426,
+    "albedo": 0.159
+  },
+  {
+    "id": 398188,
+    "magnitud": 19.5,
+    "diametro": 0.462,
+    "albedo": 0.137
+  },
+  {
+    "id": 399325,
+    "magnitud": 20,
+    "diametro": 0.669,
+    "albedo": 0.039
+  },
+  {
+    "id": 407324,
+    "magnitud": 20.5,
+    "diametro": 0.281,
+    "albedo": 0.141
+  },
+  {
+    "id": 414586,
+    "magnitud": 16,
+    "diametro": 0.996,
+    "albedo": 0.709
+  },
+  {
+    "id": 414746,
+    "magnitud": 18,
+    "diametro": 1.8,
+    "albedo": 0.034
+  },
+  {
+    "id": 414772,
+    "magnitud": 19.1,
+    "diametro": 1.466,
+    "albedo": 0.019
+  },
+  {
+    "id": 416567,
+    "magnitud": 17.2,
+    "diametro": 2.538,
+    "albedo": 0.036
+  },
+  {
+    "id": 416694,
+    "magnitud": 17.6,
+    "diametro": 2.292,
+    "albedo": 0.031
+  },
+  {
+    "id": 418094,
+    "magnitud": 19.3,
+    "diametro": 0.89,
+    "albedo": 0.042
+  },
+  {
+    "id": 419472,
+    "magnitud": 20.1,
+    "diametro": 0.415,
+    "albedo": 0.095
+  },
+  {
+    "id": 419472,
+    "magnitud": 20.1,
+    "diametro": 0.459,
+    "albedo": 0.088
+  },
+  {
+    "id": 423321,
+    "magnitud": 20.8,
+    "diametro": 0.202,
+    "albedo": 0.212
+  },
+  {
+    "id": 433992,
+    "magnitud": 18,
+    "diametro": 0.827,
+    "albedo": 0.163
+  },
+  {
+    "id": 434632,
+    "magnitud": 19.6,
+    "diametro": 1.15,
+    "albedo": 0.019
+  },
+  {
+    "id": 436030,
+    "magnitud": 19.2,
+    "diametro": 0.353,
+    "albedo": 0.296
+  },
+  {
+    "id": 436030,
+    "magnitud": 19.2,
+    "diametro": 0.295,
+    "albedo": 0.425
+  },
+  {
+    "id": 436324,
+    "magnitud": 19.5,
+    "diametro": 0.369,
+    "albedo": 0.205
+  },
+  {
+    "id": 436325,
+    "magnitud": 18.4,
+    "diametro": 0.452,
+    "albedo": 0.378
+  },
+  {
+    "id": 436329,
+    "magnitud": 20.2,
+    "diametro": 0.622,
+    "albedo": 0.041
+  },
+  {
+    "id": 436329,
+    "magnitud": 20.2,
+    "diametro": 1.123,
+    "albedo": 0.012
+  },
+  {
+    "id": 437879,
+    "magnitud": 17.7,
+    "diametro": 1.82,
+    "albedo": 0.044
+  },
+  {
+    "id": 437994,
+    "magnitud": 17.2,
+    "diametro": 1.078,
+    "albedo": 0.2
+  },
+  {
+    "id": 438107,
+    "magnitud": 18.3,
+    "diametro": 0.663,
+    "albedo": 0.191
+  },
+  {
+    "id": 438897,
+    "magnitud": 18.8,
+    "diametro": 0.946,
+    "albedo": 0.06
+  },
+  {
+    "id": 438902,
+    "magnitud": 17.2,
+    "diametro": 2.226,
+    "albedo": 0.047
+  },
+  {
+    "id": 441952,
+    "magnitud": 18.3,
+    "diametro": 2.246,
+    "albedo": 0.017
+  },
+  {
+    "id": 441987,
+    "magnitud": 21.7,
+    "diametro": 0.228,
+    "albedo": 0.071
+  },
+  {
+    "id": 443837,
+    "magnitud": 19.6,
+    "diametro": 0.253,
+    "albedo": 0.399
+  },
+  {
+    "id": 445305,
+    "magnitud": 20.2,
+    "diametro": 0.804,
+    "albedo": 0.023
+  },
+  {
+    "id": 445305,
+    "magnitud": 20.2,
+    "diametro": 0.762,
+    "albedo": 0.025
+  },
+  {
+    "id": 451124,
+    "magnitud": 18,
+    "diametro": 2.188,
+    "albedo": 0.023
+  },
+  {
+    "id": 451217,
+    "magnitud": 17,
+    "diametro": 2.72,
+    "albedo": 0.038
+  },
+  {
+    "id": 452389,
+    "magnitud": 18,
+    "diametro": 0.846,
+    "albedo": 0.156
+  },
+  {
+    "id": 453687,
+    "magnitud": 19.3,
+    "diametro": 0.948,
+    "albedo": 0.037
+  },
+  {
+    "id": 458135,
+    "magnitud": 19.8,
+    "diametro": 0.304,
+    "albedo": 0.23
+  },
+  {
+    "id": 462238,
+    "magnitud": 20.6,
+    "diametro": 0.219,
+    "albedo": 0.211
+  },
+  {
+    "id": 462238,
+    "magnitud": 20.6,
+    "diametro": 0.227,
+    "albedo": 0.197
+  },
+  {
+    "id": 462775,
+    "magnitud": 19.3,
+    "diametro": 1.104,
+    "albedo": 0.028
+  },
+  {
+    "id": 464798,
+    "magnitud": 19.4,
+    "diametro": 1.109,
+    "albedo": 0.025
+  },
+  {
+    "id": 464798,
+    "magnitud": 19.4,
+    "diametro": 1.167,
+    "albedo": 0.023
+  },
+  {
+    "id": 465749,
+    "magnitud": 17.3,
+    "diametro": 2.49,
+    "albedo": 0.034
+  },
+  {
+    "id": 467372,
+    "magnitud": 18,
+    "diametro": 0.874,
+    "albedo": 0.146
+  },
+  {
+    "id": 468727,
+    "magnitud": 20.6,
+    "diametro": 0.308,
+    "albedo": 0.108
+  },
+  {
+    "id": 469445,
+    "magnitud": 22,
+    "diametro": 0.143,
+    "albedo": 0.136
+  },
+  {
+    "id": 471083,
+    "magnitud": 20.1,
+    "diametro": 0.244,
+    "albedo": 0.271
+  },
+  {
+    "id": 474425,
+    "magnitud": 18.6,
+    "diametro": 0.358,
+    "albedo": 0.501
+  },
+  {
+    "id": 474425,
+    "magnitud": 18.6,
+    "diametro": 0.418,
+    "albedo": 0.368
+  },
+  {
+    "id": 475950,
+    "magnitud": 18.8,
+    "diametro": 0.389,
+    "albedo": 0.353
+  },
+  {
+    "id": 476438,
+    "magnitud": 20.4,
+    "diametro": 0.433,
+    "albedo": 0.065
+  },
+  {
+    "id": 477490,
+    "magnitud": 21,
+    "diametro": 0.652,
+    "albedo": 0.017
+  },
+  {
+    "id": 477490,
+    "magnitud": 21,
+    "diametro": 0.457,
+    "albedo": 0.035
+  },
+  {
+    "id": 477491,
+    "magnitud": 18,
+    "diametro": 0.739,
+    "albedo": 0.25
+  },
+  {
+    "id": 477519,
+    "magnitud": 19.3,
+    "diametro": 0.321,
+    "albedo": 0.327
+  },
+  {
+    "id": 477524,
+    "magnitud": 18.8,
+    "diametro": 0.991,
+    "albedo": 0.054
+  },
+  {
+    "id": 477588,
+    "magnitud": 19,
+    "diametro": 0.692,
+    "albedo": 0.093
+  },
+  {
+    "id": 480936,
+    "magnitud": 20.1,
+    "diametro": 0.537,
+    "albedo": 0.056
+  },
+  {
+    "id": 482054,
+    "magnitud": 19.4,
+    "diametro": 0.413,
+    "albedo": 0.18
+  },
+  {
+    "id": 482055,
+    "magnitud": 18.4,
+    "diametro": 1.855,
+    "albedo": 0.022
+  },
+  {
+    "id": 482111,
+    "magnitud": 19.4,
+    "diametro": 0.383,
+    "albedo": 0.209
+  },
+  {
+    "id": 483508,
+    "magnitud": 20,
+    "diametro": 0.202,
+    "albedo": 0.433
+  },
+  {
+    "id": 485110,
+    "magnitud": 21,
+    "diametro": 0.356,
+    "albedo": 0.055
+  },
+  {
+    "id": 488494,
+    "magnitud": 18.7,
+    "diametro": 0.766,
+    "albedo": 0.1
+  },
+  {
+    "id": 488789,
+    "magnitud": 19.1,
+    "diametro": 1.039,
+    "albedo": 0.038
+  },
+  {
+    "id": 488803,
+    "magnitud": 20.4,
+    "diametro": 0.209,
+    "albedo": 0.283
+  },
+  {
+    "id": 489203,
+    "magnitud": 19,
+    "diametro": 1.52,
+    "albedo": 0.019
+  },
+  {
+    "id": 490581,
+    "magnitud": 20,
+    "diametro": 0.237,
+    "albedo": 0.314
+  },
+  {
+    "id": 496837,
+    "magnitud": 21,
+    "diametro": 0.337,
+    "albedo": 0.062
+  },
+  {
+    "id": 498066,
+    "magnitud": 18.2,
+    "diametro": 0.589,
+    "albedo": 0.268
+  },
+  {
+    "id": 499496,
+    "magnitud": 19.5,
+    "diametro": 0.357,
+    "albedo": 0.22
+  },
+  {
+    "id": 504800,
+    "magnitud": 21.5,
+    "diametro": 0.38,
+    "albedo": 0.032
+  },
+  {
+    "id": 504827,
+    "magnitud": 19.3,
+    "diametro": 0.615,
+    "albedo": 0.092
+  },
+  {
+    "id": 510055,
+    "magnitud": 21.7,
+    "diametro": 0.2,
+    "albedo": 0.094
+  },
+  {
+    "id": 510073,
+    "magnitud": 18.6,
+    "diametro": 0.451,
+    "albedo": 0.316
+  },
+  {
+    "id": 513550,
+    "magnitud": 17.2,
+    "diametro": 1.521,
+    "albedo": 0.1
+  },
+  {
+    "id": 514652,
+    "magnitud": 18.3,
+    "diametro": 0.741,
+    "albedo": 0.154
+  },
+  {
+    "id": 515049,
+    "magnitud": 19.3,
+    "diametro": 0.351,
+    "albedo": 0.273
+  },
+  {
+    "id": 516803,
+    "magnitud": 19.4,
+    "diametro": 0.463,
+    "albedo": 0.144
+  },
+  {
+    "id": 518507,
+    "magnitud": 19.8,
+    "diametro": 0.648,
+    "albedo": 0.051
+  },
+  {
+    "id": 518507,
+    "magnitud": 19.8,
+    "diametro": 0.794,
+    "albedo": 0.034
+  },
+  {
+    "id": 1566,
+    "magnitud": 16.3,
+    "diametro": 1.417,
+    "albedo": 0.199
+  },
+  {
+    "id": 3288,
+    "magnitud": 15.5,
+    "diametro": 2.832,
+    "albedo": 0.139
+  },
+  {
+    "id": 3552,
+    "magnitud": 13,
+    "diametro": 26.656,
+    "albedo": 0.016
+  },
+  {
+    "id": 3554,
+    "magnitud": 15.94,
+    "diametro": 1.66,
+    "albedo": 0.261
+  },
+  {
+    "id": 3753,
+    "magnitud": 15.13,
+    "diametro": 1.803,
+    "albedo": 0.352
+  },
+  {
+    "id": 3753,
+    "magnitud": 15.13,
+    "diametro": 2.071,
+    "albedo": 0.365
+  },
+  {
+    "id": 4055,
+    "magnitud": 14.9,
+    "diametro": 2.204,
+    "albedo": 0.415
+  },
+  {
+    "id": 4401,
+    "magnitud": 15.5,
+    "diametro": 1.801,
+    "albedo": 0.343
+  },
+  {
+    "id": 4954,
+    "magnitud": 12.75,
+    "diametro": 8.292,
+    "albedo": 0.197
+  },
+  {
+    "id": 4957,
+    "magnitud": 15.1,
+    "diametro": 3.499,
+    "albedo": 0.132
+  },
+  {
+    "id": 5645,
+    "magnitud": 17.2,
+    "diametro": 1.849,
+    "albedo": 0.068
+  },
+  {
+    "id": 5653,
+    "magnitud": 16.28,
+    "diametro": 1.573,
+    "albedo": 0.22
+  },
+  {
+    "id": 7482,
+    "magnitud": 16.8,
+    "diametro": 1.052,
+    "albedo": 0.277
+  },
+  {
+    "id": 7839,
+    "magnitud": 18,
+    "diametro": 0.978,
+    "albedo": 0.117
+  },
+  {
+    "id": 10115,
+    "magnitud": 17,
+    "diametro": 0.938,
+    "albedo": 0.318
+  },
+  {
+    "id": 10165,
+    "magnitud": 17.1,
+    "diametro": 0.829,
+    "albedo": 0.372
+  },
+  {
+    "id": 11885,
+    "magnitud": 18.5,
+    "diametro": 1.298,
+    "albedo": 0.033
+  },
+  {
+    "id": 23183,
+    "magnitud": 15.9,
+    "diametro": 1.098,
+    "albedo": 0.64
+  },
+  {
+    "id": 48603,
+    "magnitud": 17.6,
+    "diametro": 0.844,
+    "albedo": 0.227
+  },
+  {
+    "id": 53789,
+    "magnitud": 17.3,
+    "diametro": 0.843,
+    "albedo": 0.222
+  },
+  {
+    "id": 65679,
+    "magnitud": 19.5,
+    "diametro": 0.918,
+    "albedo": 0.033
+  },
+  {
+    "id": 66146,
+    "magnitud": 14.6,
+    "diametro": 2.864,
+    "albedo": 0.224
+  },
+  {
+    "id": 68278,
+    "magnitud": 18.4,
+    "diametro": 0.942,
+    "albedo": 0.087
+  },
+  {
+    "id": 86324,
+    "magnitud": 15.8,
+    "diametro": 2.102,
+    "albedo": 0.191
+  },
+  {
+    "id": 89830,
+    "magnitud": 14.8,
+    "diametro": 5.067,
+    "albedo": 0.079
+  },
+  {
+    "id": 96590,
+    "magnitud": 16.2,
+    "diametro": 0.882,
+    "albedo": 0.489
+  },
+  {
+    "id": 100926,
+    "magnitud": 16.6,
+    "diametro": 1.174,
+    "albedo": 0.234
+  },
+  {
+    "id": 111253,
+    "magnitud": 15.1,
+    "diametro": 3.006,
+    "albedo": 0.178
+  },
+  {
+    "id": 136874,
+    "magnitud": 15.7,
+    "diametro": 4.119,
+    "albedo": 0.055
+  },
+  {
+    "id": 137062,
+    "magnitud": 16.5,
+    "diametro": 1.437,
+    "albedo": 0.215
+  },
+  {
+    "id": 139345,
+    "magnitud": 16.7,
+    "diametro": 2.586,
+    "albedo": 0.055
+  },
+  {
+    "id": 141484,
+    "magnitud": 16.5,
+    "diametro": 0.941,
+    "albedo": 0.35
+  },
+  {
+    "id": 142464,
+    "magnitud": 18.2,
+    "diametro": 0.506,
+    "albedo": 0.362
+  },
+  {
+    "id": 144901,
+    "magnitud": 17.4,
+    "diametro": 2.179,
+    "albedo": 0.041
+  },
+  {
+    "id": 152563,
+    "magnitud": 19.8,
+    "diametro": 0.272,
+    "albedo": 0.287
+  },
+  {
+    "id": 152952,
+    "magnitud": 17.3,
+    "diametro": 0.776,
+    "albedo": 0.353
+  },
+  {
+    "id": 152978,
+    "magnitud": 19.4,
+    "diametro": 0.39,
+    "albedo": 0.202
+  },
+  {
+    "id": 154029,
+    "magnitud": 16.5,
+    "diametro": 1.119,
+    "albedo": 0.241
+  },
+  {
+    "id": 154589,
+    "magnitud": 16.4,
+    "diametro": 1.109,
+    "albedo": 0.395
+  },
+  {
+    "id": 162463,
+    "magnitud": 17.5,
+    "diametro": 1.38,
+    "albedo": 0.084
+  },
+  {
+    "id": 164121,
+    "magnitud": 16.2,
+    "diametro": 1.717,
+    "albedo": 0.198
+  },
+  {
+    "id": 164121,
+    "magnitud": 16.2,
+    "diametro": 1.738,
+    "albedo": 0.193
+  },
+  {
+    "id": 168378,
+    "magnitud": 17,
+    "diametro": 1.089,
+    "albedo": 0.236
+  },
+  {
+    "id": 169352,
+    "magnitud": 19.1,
+    "diametro": 0.316,
+    "albedo": 0.405
+  },
+  {
+    "id": 175706,
+    "magnitud": 17.76,
+    "diametro": 1.196,
+    "albedo": 0.072
+  },
+  {
+    "id": 198856,
+    "magnitud": 17,
+    "diametro": 0.742,
+    "albedo": 0.389
+  },
+  {
+    "id": 219071,
+    "magnitud": 17.2,
+    "diametro": 0.657,
+    "albedo": 0.383
+  },
+  {
+    "id": 241370,
+    "magnitud": 17.4,
+    "diametro": 0.764,
+    "albedo": 0.224
+  },
+  {
+    "id": 241596,
+    "magnitud": 17.1,
+    "diametro": 1.548,
+    "albedo": 0.106
+  },
+  {
+    "id": 242187,
+    "magnitud": 17.9,
+    "diametro": 0.605,
+    "albedo": 0.334
+  },
+  {
+    "id": 243025,
+    "magnitud": 16.2,
+    "diametro": 2.123,
+    "albedo": 0.139
+  },
+  {
+    "id": 243566,
+    "magnitud": 17.4,
+    "diametro": 1.028,
+    "albedo": 0.183
+  },
+  {
+    "id": 244977,
+    "magnitud": 18.4,
+    "diametro": 0.495,
+    "albedo": 0.235
+  },
+  {
+    "id": 246138,
+    "magnitud": 18.2,
+    "diametro": 0.588,
+    "albedo": 0.269
+  },
+  {
+    "id": 247156,
+    "magnitud": 18,
+    "diametro": 1.371,
+    "albedo": 0.052
+  },
+  {
+    "id": 247156,
+    "magnitud": 18,
+    "diametro": 1.655,
+    "albedo": 0.033
+  },
+  {
+    "id": 248590,
+    "magnitud": 16.5,
+    "diametro": 3.444,
+    "albedo": 0.037
+  },
+  {
+    "id": 248926,
+    "magnitud": 16.8,
+    "diametro": 2.21,
+    "albedo": 0.069
+  },
+  {
+    "id": 249886,
+    "magnitud": 17.3,
+    "diametro": 1.305,
+    "albedo": 0.125
+  },
+  {
+    "id": 249886,
+    "magnitud": 17.3,
+    "diametro": 1.445,
+    "albedo": 0.194
+  },
+  {
+    "id": 249886,
+    "magnitud": 17.3,
+    "diametro": 1.201,
+    "albedo": 0.051
+  },
+  {
+    "id": 250614,
+    "magnitud": 16,
+    "diametro": 1.617,
+    "albedo": 0.269
+  },
+  {
+    "id": 250706,
+    "magnitud": 18.4,
+    "diametro": 0.535,
+    "albedo": 0.322
+  },
+  {
+    "id": 252399,
+    "magnitud": 19.1,
+    "diametro": 0.291,
+    "albedo": 0.478
+  },
+  {
+    "id": 256412,
+    "magnitud": 17,
+    "diametro": 3.737,
+    "albedo": 0.02
+  },
+  {
+    "id": 260277,
+    "magnitud": 18.2,
+    "diametro": 0.47,
+    "albedo": 0.419
+  },
+  {
+    "id": 260277,
+    "magnitud": 18.2,
+    "diametro": 0.478,
+    "albedo": 0.406
+  },
+  {
+    "id": 264357,
+    "magnitud": 21,
+    "diametro": 0.113,
+    "albedo": 0.552
+  },
+  {
+    "id": 265196,
+    "magnitud": 18.7,
+    "diametro": 0.361,
+    "albedo": 0.31
+  },
+  {
+    "id": 276703,
+    "magnitud": 19.3,
+    "diametro": 0.521,
+    "albedo": 0.124
+  },
+  {
+    "id": 333578,
+    "magnitud": 20.2,
+    "diametro": 0.204,
+    "albedo": 0.352
+  },
+  {
+    "id": 333889,
+    "magnitud": 18.1,
+    "diametro": 0.919,
+    "albedo": 0.11
+  },
+  {
+    "id": 337119,
+    "magnitud": 18.6,
+    "diametro": 0.521,
+    "albedo": 0.235
+  },
+  {
+    "id": 345705,
+    "magnitud": 18.5,
+    "diametro": 0.389,
+    "albedo": 0.402
+  },
+  {
+    "id": 345705,
+    "magnitud": 18.5,
+    "diametro": 0.371,
+    "albedo": 0.51
+  },
+  {
+    "id": 356394,
+    "magnitud": 17.3,
+    "diametro": 1.181,
+    "albedo": 0.152
+  },
+  {
+    "id": 365071,
+    "magnitud": 18,
+    "diametro": 0.674,
+    "albedo": 0.246
+  },
+  {
+    "id": 367248,
+    "magnitud": 20,
+    "diametro": 0.384,
+    "albedo": 0.172
+  },
+  {
+    "id": 371660,
+    "magnitud": 20.8,
+    "diametro": 0.23,
+    "albedo": 0.16
+  },
+  {
+    "id": 388185,
+    "magnitud": 17.7,
+    "diametro": 2.75,
+    "albedo": 0.019
+  },
+  {
+    "id": 414746,
+    "magnitud": 18,
+    "diametro": 2.431,
+    "albedo": 0.019
+  },
+  {
+    "id": 417634,
+    "magnitud": 18.5,
+    "diametro": 0.418,
+    "albedo": 0.403
+  },
+  {
+    "id": 417634,
+    "magnitud": 18.5,
+    "diametro": 0.678,
+    "albedo": 0.154
+  },
+  {
+    "id": 419624,
+    "magnitud": 20.6,
+    "diametro": 0.348,
+    "albedo": 0.084
+  },
+  {
+    "id": 419880,
+    "magnitud": 19.5,
+    "diametro": 0.761,
+    "albedo": 0.048
+  },
+  {
+    "id": 429382,
+    "magnitud": 18.2,
+    "diametro": 0.448,
+    "albedo": 0.463
+  },
+  {
+    "id": 429382,
+    "magnitud": 18.2,
+    "diametro": 0.454,
+    "albedo": 0.45
+  },
+  {
+    "id": 434632,
+    "magnitud": 19.6,
+    "diametro": 0.483,
+    "albedo": 0.109
+  },
+  {
+    "id": 434740,
+    "magnitud": 19.4,
+    "diametro": 0.997,
+    "albedo": 0.031
+  },
+  {
+    "id": 435404,
+    "magnitud": 18.5,
+    "diametro": 0.923,
+    "albedo": 0.083
+  },
+  {
+    "id": 435404,
+    "magnitud": 18.5,
+    "diametro": 0.921,
+    "albedo": 0.083
+  },
+  {
+    "id": 455192,
+    "magnitud": 17.74,
+    "diametro": 1.082,
+    "albedo": 0.121
+  },
+  {
+    "id": 477762,
+    "magnitud": 19.8,
+    "diametro": 0.326,
+    "albedo": 0.201
+  },
+  {
+    "id": 495858,
+    "magnitud": 18.8,
+    "diametro": 0.312,
+    "albedo": 0.548
+  },
+  {
+    "id": 495858,
+    "magnitud": 18.8,
+    "diametro": 0.342,
+    "albedo": 0.35
+  },
+  {
+    "id": 498143,
+    "magnitud": 18.8,
+    "diametro": 1.531,
+    "albedo": 0.023
+  },
+  {
+    "id": 499490,
+    "magnitud": 19,
+    "diametro": 1.202,
+    "albedo": 0.031
+  },
+  {
+    "id": 499582,
+    "magnitud": 20.5,
+    "diametro": 0.461,
+    "albedo": 0.044
+  },
+  {
+    "id": 85989,
+    "magnitud": 17.1,
+    "diametro": 1.839,
+    "albedo": 0.056
+  },
+  {
+    "id": 85989,
+    "magnitud": 17.1,
+    "diametro": 1.61,
+    "albedo": 0.103
+  },
+  {
+    "id": 88254,
+    "magnitud": 17.6,
+    "diametro": 0.8,
+    "albedo": 0.252
+  },
+  {
+    "id": 137032,
+    "magnitud": 16.6,
+    "diametro": 1.055,
+    "albedo": 0.183
+  },
+  {
+    "id": 152742,
+    "magnitud": 19.1,
+    "diametro": 0.413,
+    "albedo": 0.264
+  },
+  {
+    "id": 154590,
+    "magnitud": 21.7,
+    "diametro": 0.086,
+    "albedo": 0.53
+  },
+  {
+    "id": 226554,
+    "magnitud": 19.5,
+    "diametro": 0.482,
+    "albedo": 0.125
+  },
+  {
+    "id": 230549,
+    "magnitud": 20.6,
+    "diametro": 0.217,
+    "albedo": 0.216
+  },
+  {
+    "id": 234145,
+    "magnitud": 21.3,
+    "diametro": 0.344,
+    "albedo": 0.045
+  },
+  {
+    "id": 247517,
+    "magnitud": 19.7,
+    "diametro": 0.269,
+    "albedo": 0.357
+  },
+  {
+    "id": 264357,
+    "magnitud": 21,
+    "diametro": 0.439,
+    "albedo": 0.037
+  },
+  {
+    "id": 323179,
+    "magnitud": 18.2,
+    "diametro": 1.17,
+    "albedo": 0.068
+  },
+  {
+    "id": 363599,
+    "magnitud": 21,
+    "diametro": 0.152,
+    "albedo": 0.306
+  },
+  {
+    "id": 386454,
+    "magnitud": 19.9,
+    "diametro": 0.367,
+    "albedo": 0.128
+  },
+  {
+    "id": 387505,
+    "magnitud": 18.4,
+    "diametro": 1.06,
+    "albedo": 0.074
+  },
+  {
+    "id": 410777,
+    "magnitud": 22.1,
+    "diametro": 0.472,
+    "albedo": 0.01
+  },
+  {
+    "id": 411165,
+    "magnitud": 21.9,
+    "diametro": 0.159,
+    "albedo": 0.121
+  },
+  {
+    "id": 416801,
+    "magnitud": 19.6,
+    "diametro": 0.906,
+    "albedo": 0.031
+  },
+  {
+    "id": 422638,
+    "magnitud": 21,
+    "diametro": 0.193,
+    "albedo": 0.195
+  },
+  {
+    "id": 422686,
+    "magnitud": 21.5,
+    "diametro": 0.176,
+    "albedo": 0.143
+  },
+  {
+    "id": 442037,
+    "magnitud": 19.4,
+    "diametro": 0.695,
+    "albedo": 0.063
+  },
+  {
+    "id": 442037,
+    "magnitud": 19.4,
+    "diametro": 0.488,
+    "albedo": 0.129
+  },
+  {
+    "id": 450237,
+    "magnitud": 22.9,
+    "diametro": 0.096,
+    "albedo": 0.134
+  },
+  {
+    "id": 465826,
+    "magnitud": 21.1,
+    "diametro": 0.15,
+    "albedo": 0.285
+  },
+  {
+    "id": 468468,
+    "magnitud": 22,
+    "diametro": 0.197,
+    "albedo": 0.072
+  },
+  {
+    "id": 475016,
+    "magnitud": 22.1,
+    "diametro": 0.164,
+    "albedo": 0.094
+  },
+  {
+    "id": 503941,
+    "magnitud": 19.5,
+    "diametro": 0.26,
+    "albedo": 0.376
+  },
+  {
+    "id": 506590,
+    "magnitud": 22,
+    "diametro": 0.099,
+    "albedo": 0.287
+  },
+  {
+    "id": 518810,
+    "magnitud": 21.9,
+    "diametro": 0.083,
+    "albedo": 0.448
+  },
+  {
+    "id": 1566,
+    "magnitud": 16.9,
+    "diametro": 1.035,
+    "albedo": 0.287
+  },
+  {
+    "id": 1580,
+    "magnitud": 14.5,
+    "diametro": 8.553,
+    "albedo": 0.038
+  },
+  {
+    "id": 1620,
+    "magnitud": 15.6,
+    "diametro": 1.873,
+    "albedo": 0.29
+  },
+  {
+    "id": 1862,
+    "magnitud": 16.25,
+    "diametro": 1.395,
+    "albedo": 0.287
+  },
+  {
+    "id": 1862,
+    "magnitud": 16.25,
+    "diametro": 1.264,
+    "albedo": 0.35
+  },
+  {
+    "id": 1917,
+    "magnitud": 13.9,
+    "diametro": 4.994,
+    "albedo": 0.195
+  },
+  {
+    "id": 1943,
+    "magnitud": 15.75,
+    "diametro": 2.339,
+    "albedo": 0.162
+  },
+  {
+    "id": 1943,
+    "magnitud": 15.75,
+    "diametro": 2.299,
+    "albedo": 0.167
+  },
+  {
+    "id": 1943,
+    "magnitud": 15.75,
+    "diametro": 2.28,
+    "albedo": 0.17
+  },
+  {
+    "id": 2062,
+    "magnitud": 16.8,
+    "diametro": 0.804,
+    "albedo": 0.52
+  },
+  {
+    "id": 3288,
+    "magnitud": 15.2,
+    "diametro": 2.494,
+    "albedo": 0.237
+  },
+  {
+    "id": 3554,
+    "magnitud": 15.82,
+    "diametro": 1.556,
+    "albedo": 0.342
+  },
+  {
+    "id": 4183,
+    "magnitud": 14.4,
+    "diametro": 2.945,
+    "albedo": 0.356
+  },
+  {
+    "id": 49183,
+    "magnitud": 14.4,
+    "diametro": 3.544,
+    "albedo": 0.244
+  },
+  {
+    "id": 4954,
+    "magnitud": 12.6,
+    "diametro": 9.561,
+    "albedo": 0.176
+  },
+  {
+    "id": 5381,
+    "magnitud": 16.5,
+    "diametro": 0.91,
+    "albedo": 0.535
+  },
+  {
+    "id": 5381,
+    "magnitud": 16.5,
+    "diametro": 0.935,
+    "albedo": 0.507
+  },
+  {
+    "id": 6050,
+    "magnitud": 14.8,
+    "diametro": 2.884,
+    "albedo": 0.257
+  },
+  {
+    "id": 6053,
+    "magnitud": 14.9,
+    "diametro": 3.72,
+    "albedo": 0.14
+  },
+  {
+    "id": 7025,
+    "magnitud": 18.3,
+    "diametro": 0.498,
+    "albedo": 0.34
+  },
+  {
+    "id": 7889,
+    "magnitud": 15.2,
+    "diametro": 1.68,
+    "albedo": 0.52
+  },
+  {
+    "id": 8567,
+    "magnitud": 15.3,
+    "diametro": 2.928,
+    "albedo": 0.156
+  },
+  {
+    "id": 13651,
+    "magnitud": 17.6,
+    "diametro": 0.562,
+    "albedo": 0.511
+  },
+  {
+    "id": 25916,
+    "magnitud": 13.6,
+    "diametro": 5.964,
+    "albedo": 0.177
+  },
+  {
+    "id": 27346,
+    "magnitud": 15.9,
+    "diametro": 1.802,
+    "albedo": 0.237
+  },
+  {
+    "id": 35107,
+    "magnitud": 16.8,
+    "diametro": 0.908,
+    "albedo": 0.408
+  },
+  {
+    "id": 35107,
+    "magnitud": 16.8,
+    "diametro": 1.099,
+    "albedo": 0.279
+  },
+  {
+    "id": 39572,
+    "magnitud": 16.5,
+    "diametro": 1.554,
+    "albedo": 0.184
+  },
+  {
+    "id": 39796,
+    "magnitud": 15.7,
+    "diametro": 2.131,
+    "albedo": 0.205
+  },
+  {
+    "id": 40263,
+    "magnitud": 17.7,
+    "diametro": 0.917,
+    "albedo": 0.175
+  },
+  {
+    "id": 40267,
+    "magnitud": 15.4,
+    "diametro": 2.388,
+    "albedo": 0.214
+  },
+  {
+    "id": 53430,
+    "magnitud": 16.6,
+    "diametro": 1.233,
+    "albedo": 0.266
+  },
+  {
+    "id": 54686,
+    "magnitud": 16.5,
+    "diametro": 1.349,
+    "albedo": 0.244
+  },
+  {
+    "id": 55532,
+    "magnitud": 16.1,
+    "diametro": 1.306,
+    "albedo": 0.376
+  },
+  {
+    "id": 68063,
+    "magnitud": 15.5,
+    "diametro": 2.301,
+    "albedo": 0.211
+  },
+  {
+    "id": 68267,
+    "magnitud": 16.9,
+    "diametro": 0.875,
+    "albedo": 0.401
+  },
+  {
+    "id": 68348,
+    "magnitud": 14.2,
+    "diametro": 3.512,
+    "albedo": 0.299
+  },
+  {
+    "id": 68548,
+    "magnitud": 16.5,
+    "diametro": 1.182,
+    "albedo": 0.318
+  },
+  {
+    "id": 68548,
+    "magnitud": 16.5,
+    "diametro": 1.24,
+    "albedo": 0.289
+  },
+  {
+    "id": 85182,
+    "magnitud": 17.1,
+    "diametro": 1.027,
+    "albedo": 0.242
+  },
+  {
+    "id": 85628,
+    "magnitud": 17,
+    "diametro": 0.775,
+    "albedo": 0.461
+  },
+  {
+    "id": 85774,
+    "magnitud": 19.2,
+    "diametro": 0.939,
+    "albedo": 0.042
+  },
+  {
+    "id": 86819,
+    "magnitud": 17.4,
+    "diametro": 0.802,
+    "albedo": 0.301
+  },
+  {
+    "id": 86829,
+    "magnitud": 15.9,
+    "diametro": 1.433,
+    "albedo": 0.375
+  },
+  {
+    "id": 87309,
+    "magnitud": 17.6,
+    "diametro": 0.568,
+    "albedo": 0.499
+  },
+  {
+    "id": 88213,
+    "magnitud": 19.7,
+    "diametro": 0.912,
+    "albedo": 0.028
+  },
+  {
+    "id": 89355,
+    "magnitud": 15.6,
+    "diametro": 2.038,
+    "albedo": 0.246
+  },
+  {
+    "id": 90075,
+    "magnitud": 15.2,
+    "diametro": 2.233,
+    "albedo": 0.294
+  },
+  {
+    "id": 90367,
+    "magnitud": 17.7,
+    "diametro": 1.759,
+    "albedo": 0.047
+  },
+  {
+    "id": 90367,
+    "magnitud": 17.7,
+    "diametro": 2,
+    "albedo": 0.037
+  },
+  {
+    "id": 99248,
+    "magnitud": 16.3,
+    "diametro": 1.115,
+    "albedo": 0.429
+  },
+  {
+    "id": 99248,
+    "magnitud": 16.3,
+    "diametro": 1.135,
+    "albedo": 0.414
+  },
+  {
+    "id": 137062,
+    "magnitud": 16.6,
+    "diametro": 0.992,
+    "albedo": 0.411
+  },
+  {
+    "id": 137099,
+    "magnitud": 18.2,
+    "diametro": 0.564,
+    "albedo": 0.291
+  },
+  {
+    "id": 138127,
+    "magnitud": 17.1,
+    "diametro": 0.754,
+    "albedo": 0.449
+  },
+  {
+    "id": 138847,
+    "magnitud": 16.9,
+    "diametro": 0.938,
+    "albedo": 0.348
+  },
+  {
+    "id": 138947,
+    "magnitud": 18.7,
+    "diametro": 0.447,
+    "albedo": 0.292
+  },
+  {
+    "id": 142781,
+    "magnitud": 16.1,
+    "diametro": 1.595,
+    "albedo": 0.252
+  },
+  {
+    "id": 142781,
+    "magnitud": 16.1,
+    "diametro": 2.011,
+    "albedo": 0.158
+  },
+  {
+    "id": 142781,
+    "magnitud": 16.1,
+    "diametro": 2.029,
+    "albedo": 0.156
+  },
+  {
+    "id": 143624,
+    "magnitud": 15.9,
+    "diametro": 2.137,
+    "albedo": 0.169
+  },
+  {
+    "id": 143624,
+    "magnitud": 15.9,
+    "diametro": 2.23,
+    "albedo": 0.155
+  },
+  {
+    "id": 154276,
+    "magnitud": 17.6,
+    "diametro": 1.06,
+    "albedo": 0.143
+  },
+  {
+    "id": 159454,
+    "magnitud": 17.9,
+    "diametro": 0.577,
+    "albedo": 0.367
+  },
+  {
+    "id": 159560,
+    "magnitud": 17,
+    "diametro": 1.099,
+    "albedo": 0.236
+  },
+  {
+    "id": 159560,
+    "magnitud": 17,
+    "diametro": 1.156,
+    "albedo": 0.209
+  },
+  {
+    "id": 159857,
+    "magnitud": 15.4,
+    "diametro": 3.07,
+    "albedo": 0.13
+  },
+  {
+    "id": 162058,
+    "magnitud": 17.8,
+    "diametro": 0.847,
+    "albedo": 0.186
+  },
+  {
+    "id": 162058,
+    "magnitud": 17.8,
+    "diametro": 0.848,
+    "albedo": 0.185
+  },
+  {
+    "id": 162080,
+    "magnitud": 19.8,
+    "diametro": 0.777,
+    "albedo": 0.035
+  },
+  {
+    "id": 162080,
+    "magnitud": 19.8,
+    "diametro": 0.821,
+    "albedo": 0.032
+  },
+  {
+    "id": 162116,
+    "magnitud": 19.3,
+    "diametro": 0.538,
+    "albedo": 0.116
+  },
+  {
+    "id": 162181,
+    "magnitud": 18.2,
+    "diametro": 0.729,
+    "albedo": 0.175
+  },
+  {
+    "id": 162483,
+    "magnitud": 17.5,
+    "diametro": 0.692,
+    "albedo": 0.369
+  },
+  {
+    "id": 162566,
+    "magnitud": 15.7,
+    "diametro": 5.999,
+    "albedo": 0.026
+  },
+  {
+    "id": 162567,
+    "magnitud": 19.9,
+    "diametro": 0.335,
+    "albedo": 0.173
+  },
+  {
+    "id": 162741,
+    "magnitud": 17.3,
+    "diametro": 3.945,
+    "albedo": 0.014
+  },
+  {
+    "id": 162980,
+    "magnitud": 16.7,
+    "diametro": 0.79,
+    "albedo": 0.658
+  },
+  {
+    "id": 163691,
+    "magnitud": 17,
+    "diametro": 3.064,
+    "albedo": 0.03
+  },
+  {
+    "id": 163818,
+    "magnitud": 18.4,
+    "diametro": 0.386,
+    "albedo": 0.516
+  },
+  {
+    "id": 172034,
+    "magnitud": 17.8,
+    "diametro": 0.631,
+    "albedo": 0.336
+  },
+  {
+    "id": 190166,
+    "magnitud": 17.1,
+    "diametro": 1.009,
+    "albedo": 0.251
+  },
+  {
+    "id": 190166,
+    "magnitud": 17.1,
+    "diametro": 1.045,
+    "albedo": 0.234
+  },
+  {
+    "id": 209924,
+    "magnitud": 16.1,
+    "diametro": 1.861,
+    "albedo": 0.185
+  },
+  {
+    "id": 211871,
+    "magnitud": 18.8,
+    "diametro": 0.411,
+    "albedo": 0.315
+  },
+  {
+    "id": 214088,
+    "magnitud": 15.2,
+    "diametro": 2.423,
+    "albedo": 0.25
+  },
+  {
+    "id": 215588,
+    "magnitud": 19.5,
+    "diametro": 0.488,
+    "albedo": 0.118
+  },
+  {
+    "id": 215757,
+    "magnitud": 17.7,
+    "diametro": 0.78,
+    "albedo": 0.241
+  },
+  {
+    "id": 235086,
+    "magnitud": 17.5,
+    "diametro": 1.016,
+    "albedo": 0.173
+  },
+  {
+    "id": 235086,
+    "magnitud": 17.5,
+    "diametro": 1.024,
+    "albedo": 0.168
+  },
+  {
+    "id": 235086,
+    "magnitud": 17.5,
+    "diametro": 1.076,
+    "albedo": 0.152
+  },
+  {
+    "id": 242450,
+    "magnitud": 14.7,
+    "diametro": 2.537,
+    "albedo": 0.362
+  },
+  {
+    "id": 242450,
+    "magnitud": 14.7,
+    "diametro": 2.914,
+    "albedo": 0.274
+  },
+  {
+    "id": 243566,
+    "magnitud": 17.4,
+    "diametro": 0.881,
+    "albedo": 0.25
+  },
+  {
+    "id": 250620,
+    "magnitud": 18,
+    "diametro": 0.654,
+    "albedo": 0.26
+  },
+  {
+    "id": 262623,
+    "magnitud": 18.5,
+    "diametro": 0.493,
+    "albedo": 0.289
+  },
+  {
+    "id": 267337,
+    "magnitud": 18,
+    "diametro": 0.439,
+    "albedo": 0.578
+  },
+  {
+    "id": 269690,
+    "magnitud": 18.4,
+    "diametro": 0.888,
+    "albedo": 0.098
+  },
+  {
+    "id": 271480,
+    "magnitud": 17.5,
+    "diametro": 0.709,
+    "albedo": 0.352
+  },
+  {
+    "id": 274138,
+    "magnitud": 17.8,
+    "diametro": 0.747,
+    "albedo": 0.24
+  },
+  {
+    "id": 275976,
+    "magnitud": 16.3,
+    "diametro": 1.857,
+    "albedo": 0.155
+  },
+  {
+    "id": 275976,
+    "magnitud": 16.3,
+    "diametro": 2.381,
+    "albedo": 0.094
+  },
+  {
+    "id": 276049,
+    "magnitud": 16.8,
+    "diametro": 4.028,
+    "albedo": 0.021
+  },
+  {
+    "id": 276274,
+    "magnitud": 17.2,
+    "diametro": 1.528,
+    "albedo": 0.1
+  },
+  {
+    "id": 276468,
+    "magnitud": 17.9,
+    "diametro": 1.034,
+    "albedo": 0.114
+  },
+  {
+    "id": 277616,
+    "magnitud": 17.4,
+    "diametro": 1.276,
+    "albedo": 0.119
+  },
+  {
+    "id": 285944,
+    "magnitud": 16.5,
+    "diametro": 1.044,
+    "albedo": 0.407
+  },
+  {
+    "id": 285944,
+    "magnitud": 16.5,
+    "diametro": 1.401,
+    "albedo": 0.227
+  },
+  {
+    "id": 297418,
+    "magnitud": 18.6,
+    "diametro": 0.407,
+    "albedo": 0.388
+  },
+  {
+    "id": 299582,
+    "magnitud": 18,
+    "diametro": 0.622,
+    "albedo": 0.288
+  },
+  {
+    "id": 303174,
+    "magnitud": 16.7,
+    "diametro": 1.504,
+    "albedo": 0.163
+  },
+  {
+    "id": 304330,
+    "magnitud": 18.9,
+    "diametro": 0.611,
+    "albedo": 0.133
+  },
+  {
+    "id": 304330,
+    "magnitud": 18.9,
+    "diametro": 0.78,
+    "albedo": 0.08
+  },
+  {
+    "id": 322763,
+    "magnitud": 16.9,
+    "diametro": 1.252,
+    "albedo": 0.196
+  },
+  {
+    "id": 326388,
+    "magnitud": 18.2,
+    "diametro": 1.255,
+    "albedo": 0.059
+  },
+  {
+    "id": 334673,
+    "magnitud": 17.9,
+    "diametro": 0.57,
+    "albedo": 0.376
+  },
+  {
+    "id": 349219,
+    "magnitud": 18.2,
+    "diametro": 0.583,
+    "albedo": 0.272
+  },
+  {
+    "id": 363505,
+    "magnitud": 18.1,
+    "diametro": 1.9,
+    "albedo": 0.028
+  },
+  {
+    "id": 368184,
+    "magnitud": 19.5,
+    "diametro": 0.381,
+    "albedo": 0.193
+  },
+  {
+    "id": 369264,
+    "magnitud": 16.3,
+    "diametro": 1.515,
+    "albedo": 0.232
+  },
+  {
+    "id": 377732,
+    "magnitud": 17,
+    "diametro": 0.949,
+    "albedo": 0.311
+  },
+  {
+    "id": 377732,
+    "magnitud": 17,
+    "diametro": 0.986,
+    "albedo": 0.288
+  },
+  {
+    "id": 381677,
+    "magnitud": 18.4,
+    "diametro": 0.472,
+    "albedo": 0.346
+  },
+  {
+    "id": 381677,
+    "magnitud": 18.4,
+    "diametro": 0.441,
+    "albedo": 0.397
+  },
+  {
+    "id": 387733,
+    "magnitud": 18.9,
+    "diametro": 0.344,
+    "albedo": 0.411
+  },
+  {
+    "id": 387733,
+    "magnitud": 18.9,
+    "diametro": 0.32,
+    "albedo": 0.475
+  },
+  {
+    "id": 387746,
+    "magnitud": 20,
+    "diametro": 0.366,
+    "albedo": 0.132
+  },
+  {
+    "id": 388838,
+    "magnitud": 19.5,
+    "diametro": 0.363,
+    "albedo": 0.213
+  },
+  {
+    "id": 388838,
+    "magnitud": 19.5,
+    "diametro": 0.378,
+    "albedo": 0.196
+  },
+  {
+    "id": 389694,
+    "magnitud": 18.2,
+    "diametro": 0.451,
+    "albedo": 0.456
+  },
+  {
+    "id": 391211,
+    "magnitud": 18.5,
+    "diametro": 0.412,
+    "albedo": 0.415
+  },
+  {
+    "id": 393359,
+    "magnitud": 19.2,
+    "diametro": 0.774,
+    "albedo": 0.062
+  },
+  {
+    "id": 393569,
+    "magnitud": 20.2,
+    "diametro": 0.551,
+    "albedo": 0.048
+  },
+  {
+    "id": 395207,
+    "magnitud": 19.6,
+    "diametro": 0.604,
+    "albedo": 0.07
+  },
+  {
+    "id": 395207,
+    "magnitud": 19.6,
+    "diametro": 0.731,
+    "albedo": 0.048
+  },
+  {
+    "id": 397237,
+    "magnitud": 16.7,
+    "diametro": 1.732,
+    "albedo": 0.123
+  },
+  {
+    "id": 399433,
+    "magnitud": 18.6,
+    "diametro": 1.339,
+    "albedo": 0.036
+  },
+  {
+    "id": 399433,
+    "magnitud": 18.6,
+    "diametro": 1.765,
+    "albedo": 0.021
+  },
+  {
+    "id": 406952,
+    "magnitud": 17.1,
+    "diametro": 0.772,
+    "albedo": 0.429
+  },
+  {
+    "id": 408751,
+    "magnitud": 19,
+    "diametro": 0.399,
+    "albedo": 0.278
+  },
+  {
+    "id": 409256,
+    "magnitud": 18.2,
+    "diametro": 1.887,
+    "albedo": 0.026
+  },
+  {
+    "id": 409836,
+    "magnitud": 18.1,
+    "diametro": 0.554,
+    "albedo": 0.331
+  },
+  {
+    "id": 410088,
+    "magnitud": 18.1,
+    "diametro": 1.032,
+    "albedo": 0.095
+  },
+  {
+    "id": 410778,
+    "magnitud": 18.1,
+    "diametro": 1.457,
+    "albedo": 0.048
+  },
+  {
+    "id": 411201,
+    "magnitud": 17.8,
+    "diametro": 0.658,
+    "albedo": 0.31
+  },
+  {
+    "id": 411611,
+    "magnitud": 18.8,
+    "diametro": 0.358,
+    "albedo": 0.415
+  },
+  {
+    "id": 413038,
+    "magnitud": 16.9,
+    "diametro": 1.237,
+    "albedo": 0.201
+  },
+  {
+    "id": 413038,
+    "magnitud": 16.9,
+    "diametro": 1.009,
+    "albedo": 0.301
+  },
+  {
+    "id": 413192,
+    "magnitud": 16.8,
+    "diametro": 3.962,
+    "albedo": 0.021
+  },
+  {
+    "id": 413421,
+    "magnitud": 18.3,
+    "diametro": 1.9,
+    "albedo": 0.023
+  },
+  {
+    "id": 413820,
+    "magnitud": 19.8,
+    "diametro": 0.659,
+    "albedo": 0.049
+  },
+  {
+    "id": 414286,
+    "magnitud": 18.6,
+    "diametro": 0.369,
+    "albedo": 0.471
+  },
+  {
+    "id": 414286,
+    "magnitud": 18.6,
+    "diametro": 0.398,
+    "albedo": 0.405
+  },
+  {
+    "id": 418797,
+    "magnitud": 19.4,
+    "diametro": 0.698,
+    "albedo": 0.063
+  },
+  {
+    "id": 418929,
+    "magnitud": 17,
+    "diametro": 1.432,
+    "albedo": 0.137
+  },
+  {
+    "id": 419624,
+    "magnitud": 20.5,
+    "diametro": 0.344,
+    "albedo": 0.094
+  },
+  {
+    "id": 419624,
+    "magnitud": 20.5,
+    "diametro": 0.357,
+    "albedo": 0.088
+  },
+  {
+    "id": 419880,
+    "magnitud": 19.6,
+    "diametro": 0.982,
+    "albedo": 0.026
+  },
+  {
+    "id": 429073,
+    "magnitud": 17.1,
+    "diametro": 2.498,
+    "albedo": 0.041
+  },
+  {
+    "id": 436761,
+    "magnitud": 18.1,
+    "diametro": 2.773,
+    "albedo": 0.013
+  },
+  {
+    "id": 456537,
+    "magnitud": 19.5,
+    "diametro": 0.308,
+    "albedo": 0.242
+  },
+  {
+    "id": 464885,
+    "magnitud": 19.5,
+    "diametro": 0.384,
+    "albedo": 0.19
+  },
+  {
+    "id": 468117,
+    "magnitud": 19.3,
+    "diametro": 0.493,
+    "albedo": 0.139
+  },
+  {
+    "id": 469494,
+    "magnitud": 20.1,
+    "diametro": 0.758,
+    "albedo": 0.028
+  },
+  {
+    "id": 481327,
+    "magnitud": 20,
+    "diametro": 0.216,
+    "albedo": 0.378
+  },
+  {
+    "id": 492478,
+    "magnitud": 19.5,
+    "diametro": 1.084,
+    "albedo": 0.024
+  },
+  {
+    "id": 496174,
+    "magnitud": 18.4,
+    "diametro": 0.657,
+    "albedo": 0.179
+  },
+  {
+    "id": 496837,
+    "magnitud": 20.9,
+    "diametro": 0.363,
+    "albedo": 0.059
+  },
+  {
+    "id": 505657,
+    "magnitud": 18.6,
+    "diametro": 0.971,
+    "albedo": 0.068
+  },
+  {
+    "id": 511008,
+    "magnitud": 18.4,
+    "diametro": 1.647,
+    "albedo": 0.028
+  },
+  {
+    "id": 513550,
+    "magnitud": 17.2,
+    "diametro": 1.451,
+    "albedo": 0.111
+  },
+  {
+    "id": 513550,
+    "magnitud": 17.2,
+    "diametro": 1.736,
+    "albedo": 0.077
+  },
+  {
+    "id": 514041,
+    "magnitud": 15.6,
+    "diametro": 5.272,
+    "albedo": 0.037
+  },
+  {
+    "id": 520808,
+    "magnitud": 20.1,
+    "diametro": 0.704,
+    "albedo": 0.032
+  },
+  {
+    "id": 1580,
+    "magnitud": 14.8,
+    "diametro": 7.924,
+    "albedo": 0.034
+  },
+  {
+    "id": 1580,
+    "magnitud": 14.8,
+    "diametro": 4.22,
+    "albedo": 0.119
+  },
+  {
+    "id": 1580,
+    "magnitud": 14.8,
+    "diametro": 5.394,
+    "albedo": 0.073
+  },
+  {
+    "id": 1620,
+    "magnitud": 15.6,
+    "diametro": 1.873,
+    "albedo": 0.29
+  },
+  {
+    "id": 2062,
+    "magnitud": 16.8,
+    "diametro": 0.777,
+    "albedo": 0.557
+  },
+  {
+    "id": 2063,
+    "magnitud": 17.3,
+    "diametro": 1.024,
+    "albedo": 0.203
+  },
+  {
+    "id": 3691,
+    "magnitud": 14.7,
+    "diametro": 2.127,
+    "albedo": 0.515
+  },
+  {
+    "id": 4055,
+    "magnitud": 14.7,
+    "diametro": 3.165,
+    "albedo": 0.232
+  },
+  {
+    "id": 418113,
+    "magnitud": 14.4,
+    "diametro": 3.651,
+    "albedo": 0.23
+  },
+  {
+    "id": 5646,
+    "magnitud": 15.3,
+    "diametro": 2.451,
+    "albedo": 0.223
+  },
+  {
+    "id": 5646,
+    "magnitud": 15.3,
+    "diametro": 2.501,
+    "albedo": 0.214
+  },
+  {
+    "id": 5646,
+    "magnitud": 15.3,
+    "diametro": 2.506,
+    "albedo": 0.212
+  },
+  {
+    "id": 5731,
+    "magnitud": 15.6,
+    "diametro": 8.499,
+    "albedo": 0.014
+  },
+  {
+    "id": 5828,
+    "magnitud": 16,
+    "diametro": 1.457,
+    "albedo": 0.331
+  },
+  {
+    "id": 7335,
+    "magnitud": 17,
+    "diametro": 0.791,
+    "albedo": 0.448
+  },
+  {
+    "id": 7350,
+    "magnitud": 17.1,
+    "diametro": 1.921,
+    "albedo": 0.069
+  },
+  {
+    "id": 7889,
+    "magnitud": 15.2,
+    "diametro": 1.803,
+    "albedo": 0.452
+  },
+  {
+    "id": 9202,
+    "magnitud": 15.9,
+    "diametro": 1.525,
+    "albedo": 0.332
+  },
+  {
+    "id": 9400,
+    "magnitud": 14.8,
+    "diametro": 3.698,
+    "albedo": 0.155
+  },
+  {
+    "id": 11066,
+    "magnitud": 15.2,
+    "diametro": 2.104,
+    "albedo": 0.332
+  },
+  {
+    "id": 11405,
+    "magnitud": 15.2,
+    "diametro": 3.621,
+    "albedo": 0.112
+  },
+  {
+    "id": 21088,
+    "magnitud": 14.3,
+    "diametro": 2.793,
+    "albedo": 0.431
+  },
+  {
+    "id": 22099,
+    "magnitud": 17.9,
+    "diametro": 0.524,
+    "albedo": 0.444
+  },
+  {
+    "id": 23606,
+    "magnitud": 18.2,
+    "diametro": 0.866,
+    "albedo": 0.123
+  },
+  {
+    "id": 26817,
+    "magnitud": 19.2,
+    "diametro": 1.172,
+    "albedo": 0.027
+  },
+  {
+    "id": 33342,
+    "magnitud": 17.9,
+    "diametro": 0.432,
+    "albedo": 0.654
+  },
+  {
+    "id": 35107,
+    "magnitud": 16.7,
+    "diametro": 0.929,
+    "albedo": 0.428
+  },
+  {
+    "id": 38086,
+    "magnitud": 17.4,
+    "diametro": 0.643,
+    "albedo": 0.469
+  },
+  {
+    "id": 38091,
+    "magnitud": 16.2,
+    "diametro": 2.517,
+    "albedo": 0.092
+  },
+  {
+    "id": 52750,
+    "magnitud": 16.5,
+    "diametro": 0.972,
+    "albedo": 0.471
+  },
+  {
+    "id": 52750,
+    "magnitud": 16.5,
+    "diametro": 0.941,
+    "albedo": 0.501
+  },
+  {
+    "id": 53430,
+    "magnitud": 16.6,
+    "diametro": 1.351,
+    "albedo": 0.222
+  },
+  {
+    "id": 68216,
+    "magnitud": 16.5,
+    "diametro": 0.994,
+    "albedo": 0.449
+  },
+  {
+    "id": 68278,
+    "magnitud": 18.5,
+    "diametro": 1.456,
+    "albedo": 0.033
+  },
+  {
+    "id": 85275,
+    "magnitud": 16.2,
+    "diametro": 2.506,
+    "albedo": 0.093
+  },
+  {
+    "id": 85713,
+    "magnitud": 15.6,
+    "diametro": 3.043,
+    "albedo": 0.11
+  },
+  {
+    "id": 85804,
+    "magnitud": 15.3,
+    "diametro": 2.272,
+    "albedo": 0.259
+  },
+  {
+    "id": 85804,
+    "magnitud": 15.3,
+    "diametro": 2.193,
+    "albedo": 0.279
+  },
+  {
+    "id": 85804,
+    "magnitud": 15.3,
+    "diametro": 2.838,
+    "albedo": 0.167
+  },
+  {
+    "id": 85989,
+    "magnitud": 17.1,
+    "diametro": 1.592,
+    "albedo": 0.101
+  },
+  {
+    "id": 86067,
+    "magnitud": 16.4,
+    "diametro": 1.499,
+    "albedo": 0.216
+  },
+  {
+    "id": 86667,
+    "magnitud": 17.4,
+    "diametro": 0.745,
+    "albedo": 0.349
+  },
+  {
+    "id": 86829,
+    "magnitud": 15.9,
+    "diametro": 1.823,
+    "albedo": 0.232
+  },
+  {
+    "id": 88263,
+    "magnitud": 15.6,
+    "diametro": 5.097,
+    "albedo": 0.039
+  },
+  {
+    "id": 88710,
+    "magnitud": 17.6,
+    "diametro": 0.76,
+    "albedo": 0.281
+  },
+  {
+    "id": 90367,
+    "magnitud": 17.8,
+    "diametro": 2.065,
+    "albedo": 0.031
+  },
+  {
+    "id": 90403,
+    "magnitud": 17.6,
+    "diametro": 0.572,
+    "albedo": 0.493
+  },
+  {
+    "id": 90416,
+    "magnitud": 18.7,
+    "diametro": 0.968,
+    "albedo": 0.062
+  },
+  {
+    "id": 100756,
+    "magnitud": 16.3,
+    "diametro": 1.809,
+    "albedo": 0.163
+  },
+  {
+    "id": 105140,
+    "magnitud": 15.8,
+    "diametro": 1.946,
+    "albedo": 0.223
+  },
+  {
+    "id": 108519,
+    "magnitud": 17.9,
+    "diametro": 1.423,
+    "albedo": 0.06
+  },
+  {
+    "id": 112985,
+    "magnitud": 15.8,
+    "diametro": 3.618,
+    "albedo": 0.065
+  },
+  {
+    "id": 112985,
+    "magnitud": 15.8,
+    "diametro": 5.096,
+    "albedo": 0.033
+  },
+  {
+    "id": 137084,
+    "magnitud": 16.4,
+    "diametro": 1.228,
+    "albedo": 0.322
+  },
+  {
+    "id": 137805,
+    "magnitud": 16.6,
+    "diametro": 2.243,
+    "albedo": 0.08
+  },
+  {
+    "id": 137925,
+    "magnitud": 16,
+    "diametro": 1.372,
+    "albedo": 0.373
+  },
+  {
+    "id": 140288,
+    "magnitud": 16.7,
+    "diametro": 1.263,
+    "albedo": 0.231
+  },
+  {
+    "id": 140288,
+    "magnitud": 16.7,
+    "diametro": 1.205,
+    "albedo": 0.254
+  },
+  {
+    "id": 141484,
+    "magnitud": 16.4,
+    "diametro": 1.016,
+    "albedo": 0.471
+  },
+  {
+    "id": 141484,
+    "magnitud": 16.4,
+    "diametro": 1.034,
+    "albedo": 0.455
+  },
+  {
+    "id": 142040,
+    "magnitud": 16.3,
+    "diametro": 1.232,
+    "albedo": 0.353
+  },
+  {
+    "id": 152679,
+    "magnitud": 16.7,
+    "diametro": 4.167,
+    "albedo": 0.022
+  },
+  {
+    "id": 152978,
+    "magnitud": 19.6,
+    "diametro": 0.315,
+    "albedo": 0.257
+  },
+  {
+    "id": 152978,
+    "magnitud": 19.6,
+    "diametro": 0.367,
+    "albedo": 0.19
+  },
+  {
+    "id": 153195,
+    "magnitud": 17.5,
+    "diametro": 1.327,
+    "albedo": 0.1
+  },
+  {
+    "id": 153195,
+    "magnitud": 17.5,
+    "diametro": 1.604,
+    "albedo": 0.069
+  },
+  {
+    "id": 154807,
+    "magnitud": 18.5,
+    "diametro": 0.469,
+    "albedo": 0.319
+  },
+  {
+    "id": 155110,
+    "magnitud": 17.5,
+    "diametro": 0.683,
+    "albedo": 0.379
+  },
+  {
+    "id": 155110,
+    "magnitud": 17.5,
+    "diametro": 0.746,
+    "albedo": 0.317
+  },
+  {
+    "id": 159459,
+    "magnitud": 16.2,
+    "diametro": 1.769,
+    "albedo": 0.187
+  },
+  {
+    "id": 159504,
+    "magnitud": 17,
+    "diametro": 2.324,
+    "albedo": 0.052
+  },
+  {
+    "id": 159686,
+    "magnitud": 16.3,
+    "diametro": 1.817,
+    "albedo": 0.162
+  },
+  {
+    "id": 159929,
+    "magnitud": 17.5,
+    "diametro": 2.62,
+    "albedo": 0.026
+  },
+  {
+    "id": 161989,
+    "magnitud": 17.1,
+    "diametro": 0.661,
+    "albedo": 0.583
+  },
+  {
+    "id": 162080,
+    "magnitud": 19.9,
+    "diametro": 0.68,
+    "albedo": 0.042
+  },
+  {
+    "id": 162463,
+    "magnitud": 17.6,
+    "diametro": 0.943,
+    "albedo": 0.181
+  },
+  {
+    "id": 162463,
+    "magnitud": 17.6,
+    "diametro": 0.987,
+    "albedo": 0.165
+  },
+  {
+    "id": 162567,
+    "magnitud": 19.9,
+    "diametro": 0.295,
+    "albedo": 0.223
+  },
+  {
+    "id": 163760,
+    "magnitud": 16.6,
+    "diametro": 2.343,
+    "albedo": 0.074
+  },
+  {
+    "id": 163899,
+    "magnitud": 17.3,
+    "diametro": 0.791,
+    "albedo": 0.34
+  },
+  {
+    "id": 164206,
+    "magnitud": 17.6,
+    "diametro": 1.138,
+    "albedo": 0.124
+  },
+  {
+    "id": 172034,
+    "magnitud": 17.9,
+    "diametro": 0.638,
+    "albedo": 0.3
+  },
+  {
+    "id": 173689,
+    "magnitud": 18.3,
+    "diametro": 0.724,
+    "albedo": 0.161
+  },
+  {
+    "id": 190161,
+    "magnitud": 16.7,
+    "diametro": 3.041,
+    "albedo": 0.04
+  },
+  {
+    "id": 200754,
+    "magnitud": 18.6,
+    "diametro": 0.553,
+    "albedo": 0.21
+  },
+  {
+    "id": 206378,
+    "magnitud": 18.7,
+    "diametro": 0.376,
+    "albedo": 0.414
+  },
+  {
+    "id": 212359,
+    "magnitud": 16.7,
+    "diametro": 1.261,
+    "albedo": 0.232
+  },
+  {
+    "id": 237805,
+    "magnitud": 17.3,
+    "diametro": 0.703,
+    "albedo": 0.43
+  },
+  {
+    "id": 241662,
+    "magnitud": 17.6,
+    "diametro": 0.898,
+    "albedo": 0.2
+  },
+  {
+    "id": 241662,
+    "magnitud": 17.6,
+    "diametro": 0.806,
+    "albedo": 0.248
+  },
+  {
+    "id": 248590,
+    "magnitud": 16.3,
+    "diametro": 6.996,
+    "albedo": 0.011
+  },
+  {
+    "id": 256412,
+    "magnitud": 17,
+    "diametro": 4.444,
+    "albedo": 0.014
+  },
+  {
+    "id": 275611,
+    "magnitud": 18.1,
+    "diametro": 1.483,
+    "albedo": 0.046
+  },
+  {
+    "id": 276049,
+    "magnitud": 16.8,
+    "diametro": 6.121,
+    "albedo": 0.01
+  },
+  {
+    "id": 276049,
+    "magnitud": 16.8,
+    "diametro": 2.718,
+    "albedo": 0.046
+  },
+  {
+    "id": 276786,
+    "magnitud": 17.7,
+    "diametro": 1.72,
+    "albedo": 0.05
+  },
+  {
+    "id": 285331,
+    "magnitud": 18.3,
+    "diametro": 0.658,
+    "albedo": 0.195
+  },
+  {
+    "id": 285331,
+    "magnitud": 18.3,
+    "diametro": 0.654,
+    "albedo": 0.198
+  },
+  {
+    "id": 294739,
+    "magnitud": 17.2,
+    "diametro": 0.74,
+    "albedo": 0.425
+  },
+  {
+    "id": 297274,
+    "magnitud": 16.8,
+    "diametro": 1.199,
+    "albedo": 0.234
+  },
+  {
+    "id": 303450,
+    "magnitud": 20.5,
+    "diametro": 0.187,
+    "albedo": 0.317
+  },
+  {
+    "id": 307493,
+    "magnitud": 18.6,
+    "diametro": 1.666,
+    "albedo": 0.023
+  },
+  {
+    "id": 311554,
+    "magnitud": 18.7,
+    "diametro": 0.382,
+    "albedo": 0.401
+  },
+  {
+    "id": 326388,
+    "magnitud": 18.2,
+    "diametro": 1.142,
+    "albedo": 0.071
+  },
+  {
+    "id": 337248,
+    "magnitud": 20,
+    "diametro": 0.846,
+    "albedo": 0.025
+  },
+  {
+    "id": 337248,
+    "magnitud": 20,
+    "diametro": 0.614,
+    "albedo": 0.047
+  },
+  {
+    "id": 345646,
+    "magnitud": 19.9,
+    "diametro": 0.413,
+    "albedo": 0.117
+  },
+  {
+    "id": 355770,
+    "magnitud": 18.4,
+    "diametro": 1.199,
+    "albedo": 0.054
+  },
+  {
+    "id": 363027,
+    "magnitud": 19.5,
+    "diametro": 0.578,
+    "albedo": 0.084
+  },
+  {
+    "id": 363027,
+    "magnitud": 19.5,
+    "diametro": 0.69,
+    "albedo": 0.059
+  },
+  {
+    "id": 363505,
+    "magnitud": 18.1,
+    "diametro": 1.876,
+    "albedo": 0.029
+  },
+  {
+    "id": 373135,
+    "magnitud": 19.5,
+    "diametro": 1.05,
+    "albedo": 0.025
+  },
+  {
+    "id": 381906,
+    "magnitud": 17.9,
+    "diametro": 0.52,
+    "albedo": 0.451
+  },
+  {
+    "id": 385186,
+    "magnitud": 17.7,
+    "diametro": 0.811,
+    "albedo": 0.223
+  },
+  {
+    "id": 385186,
+    "magnitud": 17.7,
+    "diametro": 0.971,
+    "albedo": 0.156
+  },
+  {
+    "id": 401857,
+    "magnitud": 16.1,
+    "diametro": 4.282,
+    "albedo": 0.035
+  },
+  {
+    "id": 401857,
+    "magnitud": 16.1,
+    "diametro": 3.903,
+    "albedo": 0.042
+  },
+  {
+    "id": 401925,
+    "magnitud": 18.4,
+    "diametro": 0.475,
+    "albedo": 0.342
+  },
+  {
+    "id": 413123,
+    "magnitud": 19,
+    "diametro": 1.217,
+    "albedo": 0.03
+  },
+  {
+    "id": 413123,
+    "magnitud": 19,
+    "diametro": 1.258,
+    "albedo": 0.028
+  },
+  {
+    "id": 413192,
+    "magnitud": 16.8,
+    "diametro": 2.783,
+    "albedo": 0.043
+  },
+  {
+    "id": 413192,
+    "magnitud": 16.8,
+    "diametro": 2.16,
+    "albedo": 0.072
+  },
+  {
+    "id": 414287,
+    "magnitud": 17.7,
+    "diametro": 1.974,
+    "albedo": 0.038
+  },
+  {
+    "id": 414772,
+    "magnitud": 19,
+    "diametro": 1.498,
+    "albedo": 0.02
+  },
+  {
+    "id": 415711,
+    "magnitud": 19,
+    "diametro": 0.346,
+    "albedo": 0.371
+  },
+  {
+    "id": 415986,
+    "magnitud": 18.1,
+    "diametro": 1.072,
+    "albedo": 0.088
+  },
+  {
+    "id": 415986,
+    "magnitud": 18.1,
+    "diametro": 1.081,
+    "albedo": 0.087
+  },
+  {
+    "id": 416071,
+    "magnitud": 17.9,
+    "diametro": 0.803,
+    "albedo": 0.189
+  },
+  {
+    "id": 417264,
+    "magnitud": 17.2,
+    "diametro": 1.935,
+    "albedo": 0.062
+  },
+  {
+    "id": 417264,
+    "magnitud": 17.2,
+    "diametro": 1.93,
+    "albedo": 0.062
+  },
+  {
+    "id": 417264,
+    "magnitud": 17.2,
+    "diametro": 2.715,
+    "albedo": 0.032
+  },
+  {
+    "id": 418797,
+    "magnitud": 19.5,
+    "diametro": 0.789,
+    "albedo": 0.045
+  },
+  {
+    "id": 422699,
+    "magnitud": 18.3,
+    "diametro": 0.619,
+    "albedo": 0.22
+  },
+  {
+    "id": 424089,
+    "magnitud": 17.7,
+    "diametro": 2.314,
+    "albedo": 0.027
+  },
+  {
+    "id": 424392,
+    "magnitud": 21.9,
+    "diametro": 0.239,
+    "albedo": 0.054
+  },
+  {
+    "id": 428223,
+    "magnitud": 16.1,
+    "diametro": 2.525,
+    "albedo": 0.101
+  },
+  {
+    "id": 429746,
+    "magnitud": 17.3,
+    "diametro": 1.275,
+    "albedo": 0.131
+  },
+  {
+    "id": 431107,
+    "magnitud": 17.7,
+    "diametro": 1.266,
+    "albedo": 0.092
+  },
+  {
+    "id": 433953,
+    "magnitud": 20.9,
+    "diametro": 0.259,
+    "albedo": 0.115
+  },
+  {
+    "id": 433992,
+    "magnitud": 18,
+    "diametro": 0.879,
+    "albedo": 0.144
+  },
+  {
+    "id": 434096,
+    "magnitud": 18,
+    "diametro": 0.528,
+    "albedo": 0.431
+  },
+  {
+    "id": 434633,
+    "magnitud": 20.9,
+    "diametro": 0.31,
+    "albedo": 0.08
+  },
+  {
+    "id": 434633,
+    "magnitud": 20.9,
+    "diametro": 0.444,
+    "albedo": 0.039
+  },
+  {
+    "id": 436671,
+    "magnitud": 18,
+    "diametro": 2.159,
+    "albedo": 0.024
+  },
+  {
+    "id": 437879,
+    "magnitud": 17.7,
+    "diametro": 2.237,
+    "albedo": 0.029
+  },
+  {
+    "id": 437994,
+    "magnitud": 17.3,
+    "diametro": 0.798,
+    "albedo": 0.334
+  },
+  {
+    "id": 438990,
+    "magnitud": 18.3,
+    "diametro": 0.818,
+    "albedo": 0.126
+  },
+  {
+    "id": 439889,
+    "magnitud": 20.1,
+    "diametro": 0.59,
+    "albedo": 0.046
+  },
+  {
+    "id": 442605,
+    "magnitud": 19.1,
+    "diametro": 0.44,
+    "albedo": 0.209
+  },
+  {
+    "id": 442742,
+    "magnitud": 17.6,
+    "diametro": 2.003,
+    "albedo": 0.04
+  },
+  {
+    "id": 443806,
+    "magnitud": 22,
+    "diametro": 0.288,
+    "albedo": 0.034
+  },
+  {
+    "id": 443880,
+    "magnitud": 19.4,
+    "diametro": 0.228,
+    "albedo": 0.593
+  },
+  {
+    "id": 443923,
+    "magnitud": 17.4,
+    "diametro": 3.316,
+    "albedo": 0.018
+  },
+  {
+    "id": 445025,
+    "magnitud": 17.5,
+    "diametro": 2.098,
+    "albedo": 0.04
+  },
+  {
+    "id": 445305,
+    "magnitud": 19.9,
+    "diametro": 0.803,
+    "albedo": 0.03
+  },
+  {
+    "id": 450159,
+    "magnitud": 18.9,
+    "diametro": 0.735,
+    "albedo": 0.09
+  },
+  {
+    "id": 453687,
+    "magnitud": 19.3,
+    "diametro": 1.055,
+    "albedo": 0.03
+  },
+  {
+    "id": 453707,
+    "magnitud": 18.6,
+    "diametro": 0.495,
+    "albedo": 0.261
+  },
+  {
+    "id": 454078,
+    "magnitud": 17.5,
+    "diametro": 2.959,
+    "albedo": 0.02
+  },
+  {
+    "id": 454100,
+    "magnitud": 20.1,
+    "diametro": 0.548,
+    "albedo": 0.054
+  },
+  {
+    "id": 455426,
+    "magnitud": 18.6,
+    "diametro": 0.685,
+    "albedo": 0.137
+  },
+  {
+    "id": 463664,
+    "magnitud": 18.3,
+    "diametro": 1.918,
+    "albedo": 0.023
+  },
+  {
+    "id": 467352,
+    "magnitud": 21.2,
+    "diametro": 0.47,
+    "albedo": 0.026
+  },
+  {
+    "id": 496962,
+    "magnitud": 20.3,
+    "diametro": 0.175,
+    "albedo": 0.439
+  },
+  {
+    "id": 501878,
+    "magnitud": 17.2,
+    "diametro": 2.177,
+    "albedo": 0.049
+  },
+  {
+    "id": 504800,
+    "magnitud": 21.8,
+    "diametro": 0.411,
+    "albedo": 0.02
+  },
+  {
+    "id": 504994,
+    "magnitud": 18.4,
+    "diametro": 1.492,
+    "albedo": 0.035
+  },
+  {
+    "id": 505093,
+    "magnitud": 20.1,
+    "diametro": 0.556,
+    "albedo": 0.052
+  },
+  {
+    "id": 505667,
+    "magnitud": 17.9,
+    "diametro": 0.82,
+    "albedo": 0.182
+  },
+  {
+    "id": 510262,
+    "magnitud": 19.3,
+    "diametro": 1.284,
+    "albedo": 0.02
+  },
+  {
+    "id": 511777,
+    "magnitud": 20.3,
+    "diametro": 0.194,
+    "albedo": 0.358
+  },
+  {
+    "id": 511808,
+    "magnitud": 18.7,
+    "diametro": 0.746,
+    "albedo": 0.105
+  },
+  {
+    "id": 1863,
+    "magnitud": 15.54,
+    "diametro": 3.051,
+    "albedo": 0.098
+  },
+  {
+    "id": 2100,
+    "magnitud": 16.05,
+    "diametro": 3.05,
+    "albedo": 0.057
+  },
+  {
+    "id": 3360,
+    "magnitud": 15.9,
+    "diametro": 2.562,
+    "albedo": 0.118
+  },
+  {
+    "id": 3360,
+    "magnitud": 15.9,
+    "diametro": 2.337,
+    "albedo": 0.142
+  },
+  {
+    "id": 4179,
+    "magnitud": 15.3,
+    "diametro": 1.788,
+    "albedo": 0.405
+  },
+  {
+    "id": 4341,
+    "magnitud": 16.11,
+    "diametro": 3.177,
+    "albedo": 0.054
+  },
+  {
+    "id": 4769,
+    "magnitud": 16.9,
+    "diametro": 1.395,
+    "albedo": 0.092
+  },
+  {
+    "id": 5381,
+    "magnitud": 16.6,
+    "diametro": 1.117,
+    "albedo": 0.324
+  },
+  {
+    "id": 5836,
+    "magnitud": 15.43,
+    "diametro": 2.754,
+    "albedo": 0.156
+  },
+  {
+    "id": 5863,
+    "magnitud": 15.8,
+    "diametro": 1.345,
+    "albedo": 0.488
+  },
+  {
+    "id": 6611,
+    "magnitud": 16.9,
+    "diametro": 1.408,
+    "albedo": 0.158
+  },
+  {
+    "id": 7088,
+    "magnitud": 16.8,
+    "diametro": 1.298,
+    "albedo": 0.26
+  },
+  {
+    "id": 7092,
+    "magnitud": 14.95,
+    "diametro": 6.319,
+    "albedo": 0.046
+  },
+  {
+    "id": 7341,
+    "magnitud": 17.07,
+    "diametro": 0.982,
+    "albedo": 0.235
+  },
+  {
+    "id": 7350,
+    "magnitud": 17.3,
+    "diametro": 1.834,
+    "albedo": 0.063
+  },
+  {
+    "id": 7822,
+    "magnitud": 17.4,
+    "diametro": 0.712,
+    "albedo": 0.483
+  },
+  {
+    "id": 7888,
+    "magnitud": 15.1,
+    "diametro": 2.298,
+    "albedo": 0.257
+  },
+  {
+    "id": 9400,
+    "magnitud": 15.29,
+    "diametro": 1.943,
+    "albedo": 0.355
+  },
+  {
+    "id": 10636,
+    "magnitud": 17.46,
+    "diametro": 0.533,
+    "albedo": 0.645
+  },
+  {
+    "id": 16834,
+    "magnitud": 15.7,
+    "diametro": 2.651,
+    "albedo": 0.125
+  },
+  {
+    "id": 20826,
+    "magnitud": 13.9,
+    "diametro": 3.687,
+    "albedo": 0.231
+  },
+  {
+    "id": 20826,
+    "magnitud": 13.9,
+    "diametro": 5.857,
+    "albedo": 0.123
+  },
+  {
+    "id": 35396,
+    "magnitud": 16.66,
+    "diametro": 0.704,
+    "albedo": 0.772
+  },
+  {
+    "id": 52387,
+    "magnitud": 17.8,
+    "diametro": 0.89,
+    "albedo": 0.171
+  },
+  {
+    "id": 68216,
+    "magnitud": 16.5,
+    "diametro": 1.439,
+    "albedo": 0.214
+  },
+  {
+    "id": 68346,
+    "magnitud": 17.63,
+    "diametro": 0.652,
+    "albedo": 0.369
+  },
+  {
+    "id": 68346,
+    "magnitud": 17.63,
+    "diametro": 0.736,
+    "albedo": 0.291
+  },
+  {
+    "id": 68950,
+    "magnitud": 16.4,
+    "diametro": 1.65,
+    "albedo": 0.178
+  },
+  {
+    "id": 85953,
+    "magnitud": 18.1,
+    "diametro": 0.705,
+    "albedo": 0.205
+  },
+  {
+    "id": 85953,
+    "magnitud": 18.1,
+    "diametro": 0.554,
+    "albedo": 0.331
+  },
+  {
+    "id": 86666,
+    "magnitud": 16.9,
+    "diametro": 1.165,
+    "albedo": 0.228
+  },
+  {
+    "id": 88263,
+    "magnitud": 15.6,
+    "diametro": 5.06,
+    "albedo": 0.04
+  },
+  {
+    "id": 88263,
+    "magnitud": 15.6,
+    "diametro": 4.709,
+    "albedo": 0.048
+  },
+  {
+    "id": 88263,
+    "magnitud": 15.6,
+    "diametro": 4.845,
+    "albedo": 0.043
+  },
+  {
+    "id": 153219,
+    "magnitud": 18.4,
+    "diametro": 1.488,
+    "albedo": 0.035
+  },
+  {
+    "id": 154807,
+    "magnitud": 18.6,
+    "diametro": 0.385,
+    "albedo": 0.427
+  },
+  {
+    "id": 162142,
+    "magnitud": 18.8,
+    "diametro": 0.462,
+    "albedo": 0.25
+  },
+  {
+    "id": 162385,
+    "magnitud": 18.4,
+    "diametro": 0.812,
+    "albedo": 0.115
+  },
+  {
+    "id": 162463,
+    "magnitud": 17.8,
+    "diametro": 1.067,
+    "albedo": 0.118
+  },
+  {
+    "id": 162463,
+    "magnitud": 17.8,
+    "diametro": 0.97,
+    "albedo": 0.142
+  },
+  {
+    "id": 162510,
+    "magnitud": 17.5,
+    "diametro": 1.406,
+    "albedo": 0.089
+  },
+  {
+    "id": 163243,
+    "magnitud": 16.5,
+    "diametro": 1.663,
+    "albedo": 0.143
+  },
+  {
+    "id": 163348,
+    "magnitud": 20.1,
+    "diametro": 0.735,
+    "albedo": 0.03
+  },
+  {
+    "id": 163454,
+    "magnitud": 18.9,
+    "diametro": 0.712,
+    "albedo": 0.096
+  },
+  {
+    "id": 163694,
+    "magnitud": 17.3,
+    "diametro": 0.832,
+    "albedo": 0.307
+  },
+  {
+    "id": 163694,
+    "magnitud": 17.3,
+    "diametro": 0.877,
+    "albedo": 0.276
+  },
+  {
+    "id": 164206,
+    "magnitud": 17.6,
+    "diametro": 1.451,
+    "albedo": 0.077
+  },
+  {
+    "id": 168378,
+    "magnitud": 16.9,
+    "diametro": 0.933,
+    "albedo": 0.481
+  },
+  {
+    "id": 168378,
+    "magnitud": 16.9,
+    "diametro": 0.841,
+    "albedo": 0.509
+  },
+  {
+    "id": 168378,
+    "magnitud": 16.9,
+    "diametro": 0.917,
+    "albedo": 0.279
+  },
+  {
+    "id": 175921,
+    "magnitud": 18.3,
+    "diametro": 1.039,
+    "albedo": 0.078
+  },
+  {
+    "id": 175921,
+    "magnitud": 18.3,
+    "diametro": 2.04,
+    "albedo": 0.02
+  },
+  {
+    "id": 185851,
+    "magnitud": 18.2,
+    "diametro": 0.822,
+    "albedo": 0.137
+  },
+  {
+    "id": 185851,
+    "magnitud": 18.2,
+    "diametro": 0.383,
+    "albedo": 0.62
+  },
+  {
+    "id": 187040,
+    "magnitud": 19.2,
+    "diametro": 0.43,
+    "albedo": 0.199
+  },
+  {
+    "id": 187040,
+    "magnitud": 19.2,
+    "diametro": 0.617,
+    "albedo": 0.097
+  },
+  {
+    "id": 190119,
+    "magnitud": 17.1,
+    "diametro": 1.451,
+    "albedo": 0.121
+  },
+  {
+    "id": 194386,
+    "magnitud": 17,
+    "diametro": 0.916,
+    "albedo": 0.353
+  },
+  {
+    "id": 215442,
+    "magnitud": 18.5,
+    "diametro": 0.455,
+    "albedo": 0.339
+  },
+  {
+    "id": 250458,
+    "magnitud": 18,
+    "diametro": 0.63,
+    "albedo": 0.282
+  },
+  {
+    "id": 250614,
+    "magnitud": 15.24,
+    "diametro": 1.603,
+    "albedo": 0.582
+  },
+  {
+    "id": 303248,
+    "magnitud": 18.1,
+    "diametro": 0.817,
+    "albedo": 0.153
+  },
+  {
+    "id": 303248,
+    "magnitud": 18.1,
+    "diametro": 1.102,
+    "albedo": 0.084
+  },
+  {
+    "id": 307070,
+    "magnitud": 20.7,
+    "diametro": 0.303,
+    "albedo": 0.101
+  },
+  {
+    "id": 307070,
+    "magnitud": 20.7,
+    "diametro": 0.282,
+    "albedo": 0.117
+  },
+  {
+    "id": 310560,
+    "magnitud": 17.8,
+    "diametro": 0.654,
+    "albedo": 0.313
+  },
+  {
+    "id": 315098,
+    "magnitud": 16.9,
+    "diametro": 1.361,
+    "albedo": 0.165
+  },
+  {
+    "id": 315098,
+    "magnitud": 16.9,
+    "diametro": 0.993,
+    "albedo": 0.313
+  },
+  {
+    "id": 322775,
+    "magnitud": 17.45,
+    "diametro": 1.632,
+    "albedo": 0.069
+  },
+  {
+    "id": 331792,
+    "magnitud": 16,
+    "diametro": 2.06,
+    "albedo": 0.221
+  },
+  {
+    "id": 331792,
+    "magnitud": 16,
+    "diametro": 1.275,
+    "albedo": 0.499
+  },
+  {
+    "id": 345705,
+    "magnitud": 18.6,
+    "diametro": 0.406,
+    "albedo": 0.389
+  },
+  {
+    "id": 349068,
+    "magnitud": 18.3,
+    "diametro": 0.496,
+    "albedo": 0.343
+  },
+  {
+    "id": 356394,
+    "magnitud": 17.5,
+    "diametro": 1.071,
+    "albedo": 0.154
+  },
+  {
+    "id": 357022,
+    "magnitud": 19.1,
+    "diametro": 0.432,
+    "albedo": 0.217
+  },
+  {
+    "id": 357024,
+    "magnitud": 19.5,
+    "diametro": 0.255,
+    "albedo": 0.43
+  },
+  {
+    "id": 363814,
+    "magnitud": 17.9,
+    "diametro": 1.105,
+    "albedo": 0.1
+  },
+  {
+    "id": 363831,
+    "magnitud": 19.2,
+    "diametro": 0.371,
+    "albedo": 0.268
+  },
+  {
+    "id": 381181,
+    "magnitud": 19.7,
+    "diametro": 0.602,
+    "albedo": 0.064
+  },
+  {
+    "id": 385186,
+    "magnitud": 17.7,
+    "diametro": 0.641,
+    "albedo": 0.358
+  },
+  {
+    "id": 385343,
+    "magnitud": 16.6,
+    "diametro": 1.101,
+    "albedo": 0.334
+  },
+  {
+    "id": 385343,
+    "magnitud": 16.6,
+    "diametro": 1.359,
+    "albedo": 0.216
+  },
+  {
+    "id": 393569,
+    "magnitud": 20.3,
+    "diametro": 0.546,
+    "albedo": 0.045
+  },
+  {
+    "id": 395207,
+    "magnitud": 19.7,
+    "diametro": 0.669,
+    "albedo": 0.052
+  },
+  {
+    "id": 395207,
+    "magnitud": 19.7,
+    "diametro": 0.724,
+    "albedo": 0.044
+  },
+  {
+    "id": 414429,
+    "magnitud": 17.9,
+    "diametro": 2.866,
+    "albedo": 0.015
+  },
+  {
+    "id": 437994,
+    "magnitud": 17.3,
+    "diametro": 1.306,
+    "albedo": 0.124
+  },
+  {
+    "id": 439898,
+    "magnitud": 20,
+    "diametro": 0.53,
+    "albedo": 0.063
+  },
+  {
+    "id": 442742,
+    "magnitud": 17.6,
+    "diametro": 3.826,
+    "albedo": 0.011
+  },
+  {
+    "id": 444193,
+    "magnitud": 18.2,
+    "diametro": 0.437,
+    "albedo": 0.503
+  },
+  {
+    "id": 445305,
+    "magnitud": 19.9,
+    "diametro": 1.029,
+    "albedo": 0.018
+  },
+  {
+    "id": 445305,
+    "magnitud": 19.9,
+    "diametro": 0.768,
+    "albedo": 0.033
+  },
+  {
+    "id": 450238,
+    "magnitud": 18.2,
+    "diametro": 1.25,
+    "albedo": 0.059
+  },
+  {
+    "id": 451217,
+    "magnitud": 17,
+    "diametro": 4.104,
+    "albedo": 0.017
+  },
+  {
+    "id": 452313,
+    "magnitud": 18.5,
+    "diametro": 1.514,
+    "albedo": 0.031
+  },
+  {
+    "id": 452639,
+    "magnitud": 18.2,
+    "diametro": 2.249,
+    "albedo": 0.018
+  },
+  {
+    "id": 454094,
+    "magnitud": 21.9,
+    "diametro": 0.167,
+    "albedo": 0.11
+  },
+  {
+    "id": 455185,
+    "magnitud": 17.3,
+    "diametro": 0.599,
+    "albedo": 0.573
+  },
+  {
+    "id": 455185,
+    "magnitud": 17.3,
+    "diametro": 1.199,
+    "albedo": 0.148
+  },
+  {
+    "id": 455185,
+    "magnitud": 17.3,
+    "diametro": 1.956,
+    "albedo": 0.056
+  },
+  {
+    "id": 455299,
+    "magnitud": 18,
+    "diametro": 0.537,
+    "albedo": 0.386
+  },
+  {
+    "id": 455594,
+    "magnitud": 18,
+    "diametro": 1.625,
+    "albedo": 0.042
+  },
+  {
+    "id": 455594,
+    "magnitud": 18,
+    "diametro": 1.609,
+    "albedo": 0.043
+  },
+  {
+    "id": 455795,
+    "magnitud": 18.8,
+    "diametro": 1.242,
+    "albedo": 0.035
+  },
+  {
+    "id": 457647,
+    "magnitud": 17.9,
+    "diametro": 1.958,
+    "albedo": 0.031
+  },
+  {
+    "id": 458436,
+    "magnitud": 17.4,
+    "diametro": 1.102,
+    "albedo": 0.159
+  },
+  {
+    "id": 459683,
+    "magnitud": 19.7,
+    "diametro": 0.269,
+    "albedo": 0.322
+  },
+  {
+    "id": 462041,
+    "magnitud": 17.5,
+    "diametro": 1.847,
+    "albedo": 0.052
+  },
+  {
+    "id": 462041,
+    "magnitud": 17.5,
+    "diametro": 3.177,
+    "albedo": 0.017
+  },
+  {
+    "id": 462775,
+    "magnitud": 19.4,
+    "diametro": 0.866,
+    "albedo": 0.041
+  },
+  {
+    "id": 462775,
+    "magnitud": 19.4,
+    "diametro": 0.579,
+    "albedo": 0.091
+  },
+  {
+    "id": 463664,
+    "magnitud": 18.6,
+    "diametro": 0.868,
+    "albedo": 0.085
+  },
+  {
+    "id": 464797,
+    "magnitud": 18.3,
+    "diametro": 0.726,
+    "albedo": 0.16
+  },
+  {
+    "id": 464798,
+    "magnitud": 19.4,
+    "diametro": 0.911,
+    "albedo": 0.037
+  },
+  {
+    "id": 464798,
+    "magnitud": 19.4,
+    "diametro": 1.048,
+    "albedo": 0.028
+  },
+  {
+    "id": 465098,
+    "magnitud": 16.6,
+    "diametro": 2.073,
+    "albedo": 0.097
+  },
+  {
+    "id": 469513,
+    "magnitud": 20.9,
+    "diametro": 0.297,
+    "albedo": 0.087
+  },
+  {
+    "id": 471241,
+    "magnitud": 18.2,
+    "diametro": 1.451,
+    "albedo": 0.044
+  },
+  {
+    "id": 474549,
+    "magnitud": 17.8,
+    "diametro": 1.488,
+    "albedo": 0.06
+  },
+  {
+    "id": 474549,
+    "magnitud": 17.8,
+    "diametro": 2.95,
+    "albedo": 0.015
+  },
+  {
+    "id": 484402,
+    "magnitud": 19.6,
+    "diametro": 0.452,
+    "albedo": 0.125
+  },
+  {
+    "id": 504800,
+    "magnitud": 21.8,
+    "diametro": 0.382,
+    "albedo": 0.023
+  }
+]

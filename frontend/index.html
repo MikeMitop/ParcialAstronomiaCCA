@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sistema de análisis y clasificación de cuerpos menores (asteroides) mediante un Autómata Finito Determinista (AFD). Datos basados en NEOWISE (NASA)." />
+  <title>AstroAFD — Clasificador de Asteroides</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>☄️</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <canvas id="starfield-canvas"></canvas>
+
+  <div class="app-wrapper">
+    <header class="app-header">
+      <div class="header-glow"></div>
+      <div class="container">
+        <div class="app-logo">
+          <div class="logo-icon">☄️</div>
+          <h1 class="app-title">AstroAFD</h1>
+        </div>
+        <p class="app-subtitle">
+          Análisis y clasificación de cuerpos menores mediante un Autómata Finito Determinista
+        </p>
+      </div>
+    </header>
+
+    <!-- Master Dashboard Global -->
+    <div class="container" style="margin-bottom: 24px;">
+      <div class="stats-grid master-dashboard" id="master-dashboard" style="display: grid; gap: 16px;">
+        <div class="stat-card">
+          <div class="stat-value total" id="md-total">0</div>
+          <div class="stat-label">Asteroides Tratados</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value rejected" id="md-anomalias">0</div>
+          <div class="stat-label">⚠️ Anomalías Globales</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="md-live-status">Inactivo</div>
+          <div class="stat-label">Estado LIVE</div>
+        </div>
+        <div class="stat-card" style="position: relative;">
+          <div class="stat-value accepted" id="md-cache-ratio">100%</div>
+          <div class="stat-label">Salud del Caché</div>
+          <div style="position:absolute; top: 10px; right: 10px; font-size:12px; opacity: 0.5;">⚡</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="container">
+      <div class="nav-tabs" id="nav-tabs">
+        <button class="nav-tab active" data-panel="panel-analisis">
+          <span class="tab-icon">🔍</span> Analizar
+        </button>
+        <button class="nav-tab" data-panel="panel-lote">
+          <span class="tab-icon">📊</span> Análisis por Lote
+        </button>
+        <button class="nav-tab" data-panel="panel-graficas">
+          <span class="tab-icon">📈</span> Visualización
+        </button>
+        <button class="nav-tab" data-panel="panel-automata">
+          <span class="tab-icon">⚙️</span> Autómata
+        </button>
+        <button class="nav-tab" data-panel="panel-catalogo">
+          <span class="tab-icon">🗂️</span> Catálogo
+        </button>
+        <button class="nav-tab" data-panel="panel-live">
+          <span class="tab-icon">📡</span> Tiempo Real
+        </button>
+      </div>
+    </nav>
+
+    <main class="container" style="padding-bottom: 40px;">
+
+      <!-- Panel: Análisis Individual -->
+      <section class="panel active" id="panel-analisis">
+        <div class="search-section">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-icon blue">🔭</div>
+              <div>
+                <div class="card-title">Buscar Asteroide</div>
+                <div class="card-description">Ingresa el ID o nombre del cuerpo menor</div>
+              </div>
+            </div>
+            <div class="search-box">
+              <div class="search-input-wrapper">
+                <span class="search-icon-input">⌕</span>
+                <input type="text" id="search-input" class="search-input" placeholder="Ej: 1, Ceres, Vesta..." autocomplete="off" />
+              </div>
+              <button class="btn btn-primary" id="btn-analizar"><span>🚀</span> Analizar</button>
+            </div>
+          </div>
+        </div>
+        <div class="result-area" id="result-area">
+          <div class="result-empty">
+            <div class="empty-icon">🪐</div>
+            <p>Ingresa un asteroide para comenzar el análisis</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel: Análisis por Lote -->
+      <section class="panel" id="panel-lote">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon orange">📊</div>
+            <div>
+              <div class="card-title">Análisis Masivo</div>
+              <div class="card-description">Procesa todos los asteroides a través del autómata</div>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btn-lote"><span>⚡</span> Ejecutar Análisis Completo</button>
+        </div>
+        <div id="lote-result-area">
+          <div class="result-empty">
+            <div class="empty-icon">📡</div>
+            <p>Presiona el botón para analizar todos los asteroides</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel: Visualización / Gráficas -->
+      <section class="panel" id="panel-graficas">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon purple">📈</div>
+            <div>
+              <div class="card-title">Visualización y Análisis</div>
+              <div class="card-description">Explora los datos mediante gráficas interactivas</div>
+            </div>
+          </div>
+          <div class="chart-controls">
+            <div class="control-group">
+              <label class="control-label" for="chart-selector">Tipo de gráfica</label>
+              <select id="chart-selector" class="control-select">
+                <option value="snr-dist">📊 Distribución de SNR</option>
+                <option value="mag-diam">🔭 Magnitud vs Diámetro</option>
+                <option value="albedo-hist">🌓 Histograma de Albedo</option>
+                <option value="snr-prob">📈 SNR vs Probabilidad</option>
+                <option value="vel-diam">🚀 Velocidad vs Diámetro</option>
+                <option value="clasif-pie">🎯 Clasificación Global</option>
+                <option value="detectabilidad-evo">⏱️ Evolución de Detectabilidad</option>
+                <option value="trayectoria">🌑 Trayectoria Aproximada</option>
+              </select>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="chart-filter">Filtro</label>
+              <select id="chart-filter" class="control-select">
+                <option value="todos">Todos los asteroides</option>
+                <option value="detectables">Solo detectables (SNR ≥ 5)</option>
+                <option value="prioritarios">Solo prioritarios</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div id="chart-stats" class="stats-grid" style="display:none;"></div>
+
+        <div class="card" id="chart-card">
+          <div class="card-header" id="chart-header">
+            <div class="card-icon cyan">📊</div>
+            <div>
+              <div class="card-title" id="chart-title">Distribución de SNR</div>
+              <div class="card-description" id="chart-description">Cantidad de asteroides por nivel de detectabilidad</div>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="main-chart"></canvas>
+          </div>
+          <canvas id="trajectory-canvas" style="display:none; width:100%; height:400px;"></canvas>
+        </div>
+
+        <div class="card" id="point-detail-card" style="display:none;">
+          <div class="card-header">
+            <div class="card-icon green">🔍</div>
+            <div>
+              <div class="card-title" id="point-detail-name">Detalle del asteroide</div>
+              <div class="card-description">Datos del punto seleccionado</div>
+            </div>
+          </div>
+          <div id="point-detail-content"></div>
+        </div>
+      </section>
+
+      <!-- Panel: Autómata -->
+      <section class="panel" id="panel-automata">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon purple">⚙️</div>
+            <div>
+              <div class="card-title">Autómata Finito Determinista</div>
+              <div class="card-description">Definición formal M = (Q, Σ, δ, q₀, F)</div>
+            </div>
+          </div>
+          <div id="automata-def-area">
+            <div class="spinner-wrapper">
+              <div class="spinner"></div>
+              <span class="spinner-text">Cargando definición...</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon cyan">🗺️</div>
+            <div>
+              <div class="card-title">Diagrama de Estados</div>
+              <div class="card-description">Representación visual del autómata</div>
+            </div>
+          </div>
+          <div class="diagram-container" id="state-diagram"></div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon green">📐</div>
+            <div>
+              <div class="card-title">Matriz de Transiciones</div>
+              <div class="card-description">Tabla δ(estado, evento) → estado</div>
+            </div>
+          </div>
+          <div id="transition-matrix"></div>
+        </div>
+      </section>
+
+      <!-- Panel: Catálogo -->
+      <section class="panel" id="panel-catalogo">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon cyan">🗂️</div>
+            <div>
+              <div class="card-title">Catálogo de Asteroides</div>
+              <div class="card-description">Base de datos de cuerpos menores (fuente: NEOWISE — NASA)</div>
+            </div>
+          </div>
+          <div id="catalogo-area">
+            <div class="spinner-wrapper">
+              <div class="spinner"></div>
+              <span class="spinner-text">Cargando catálogo...</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel: Tiempo Real (NASA API) -->
+      <section class="panel" id="panel-live">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon red">📡</div>
+            <div>
+              <div class="card-title">
+                Análisis en Tiempo Real
+                <span class="live-badge" id="live-badge" style="display:none;">
+                  <span class="live-dot"></span> LIVE
+                </span>
+              </div>
+              <div class="card-description">
+                Datos de Near Earth Objects (NEO) hoy — fuente: NASA NeoWs API
+              </div>
+            </div>
+          </div>
+
+          <div class="live-controls">
+            <button class="btn btn-primary" id="btn-live-fetch">
+              <span>📡</span> Obtener Datos de Hoy
+            </button>
+            <button class="btn btn-secondary" id="btn-live-toggle" disabled>
+              <span>⏱️</span> Activar Modo LIVE
+            </button>
+            <div class="live-status" id="live-status">
+              <span class="live-status-text">Esperando acción...</span>
+            </div>
+          </div>
+
+          <div class="live-controls" style="margin-top: 12px;">
+            <button class="btn btn-secondary btn-live-advanced" onclick="fetchFusion()" disabled>
+              <span>🔗</span> Fusionar Datos
+            </button>
+            <button class="btn btn-secondary btn-live-advanced" onclick="fetchAnomalias()" disabled>
+              <span>🚨</span> Detectar Anomalías
+            </button>
+            <button class="btn btn-secondary btn-live-advanced" onclick="fetchComparacion()" disabled>
+              <span>📊</span> Hoy vs Histórico
+            </button>
+          </div>
+
+          <!-- Indicador Inteligente de Caché -->
+          <div class="cache-intel-card" id="cache-intel-card" style="display: none; margin-top: 16px; background: rgba(0,0,0,0.2); padding: 12px; border-radius: var(--radius-md); border-left: 4px solid var(--accent-cyan);">
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
+              <span style="color:var(--accent-cyan);">💡 Memoria Activa:</span> Los datos etiquetados como <strong>🟡 Cache</strong> se rescataron localmente y previnieron peticiones redundantes.
+            </div>
+            <div style="display: flex; gap: 20px; font-weight: bold; font-family: var(--font-mono); font-size: 0.9rem;">
+              <div>⛔ Peticiones Evitadas: <span id="intel-evitados" class="accepted">0</span></div>
+              <div>🌍 Peticiones NASA: <span id="intel-reales" class="rejected">0</span></div>
+              <div>⚡ Latencia: <span id="intel-ms" class="cyan">0 ms</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Stats -->
+        <div id="live-stats" class="stats-grid" style="display:none;"></div>
+
+        <!-- Live Chart -->
+        <div class="card" id="live-chart-card" style="display:none;">
+          <div class="card-header">
+            <div class="card-icon cyan">📊</div>
+            <div>
+              <div class="card-title">Distribución de Asteroides (Hoy)</div>
+              <div class="card-description">Magnitud vs Diámetro de NEOs detectados hoy</div>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="live-chart"></canvas>
+          </div>
+        </div>
+        
+        <!-- Live Timeline Chart -->
+        <div class="card" id="timeline-chart-card" style="display:none; margin-top: 16px;">
+          <div class="card-header">
+            <div class="card-icon purple">⏱️</div>
+            <div>
+              <div class="card-title">Evolución de Detecciones</div>
+              <div class="card-description">Línea temporal dinámica de asteroides procesados</div>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="timeline-chart"></canvas>
+          </div>
+        </div>
+
+        <!-- Live Table -->
+        <div id="live-table-area">
+          <div class="result-empty">
+            <div class="empty-icon">🛰️</div>
+            <p>Presiona "Obtener Datos" para consultar asteroides cercanos a la Tierra hoy</p>
+          </div>
+        </div>
+
+        <!-- Live Update Log -->
+        <div class="card" id="live-log-card" style="display:none;">
+          <div class="card-header">
+            <div class="card-icon purple">📋</div>
+            <div>
+              <div class="card-title">Log de Actualizaciones</div>
+              <div class="card-description">Registro de actividad del modo LIVE</div>
+            </div>
+          </div>
+          <div id="live-log" class="live-log"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="app-footer">
+      <p>ParcialAstronomiaCCA · Ciencia Computacional Avanzada</p>
+      <p style="margin-top:4px;">Datos: <a href="https://neowise.ipac.caltech.edu/" target="_blank" rel="noopener">NEOWISE (NASA)</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
