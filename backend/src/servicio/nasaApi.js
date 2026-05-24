@@ -28,6 +28,13 @@ const API_KEY = process.env.NASA_API_KEY || "DEMO_KEY";
 const NASA_BASE = "https://api.nasa.gov/neo/rest/v1/feed";
 
 // ═══════════════════════════════════════════════════════════
+// Rutas de archivos
+// ═══════════════════════════════════════════════════════════
+
+const CACHE_FILE = path.join(__dirname, "..", "database", "nasa_cache.json");
+const DATOS_FILE = path.join(__dirname, "..", "database", "datos.json");
+
+// ═══════════════════════════════════════════════════════════
 // Cache System — Persistente a disco (nasa_cache.json)
 // ═══════════════════════════════════════════════════════════
 
@@ -35,8 +42,6 @@ const DEFAULT_TTL = 10_000;            // 10 segundos (in-memory rápido)
 const TTL_HOY = 60 * 60 * 1000;        // 1 hora (datos de hoy, cambian en el día)
 const PERSIST_TTL = Number.MAX_SAFE_INTEGER; // Cache permanente (nunca expira, para el pasado)
 const DELAY_BETWEEN_REQUESTS = 1500;   // 1.5s entre requests a NASA
-
-const CACHE_FILE = path.join(__dirname, "..", "database", "nasa_cache.json");
 
 class PersistentCache {
   constructor(filePath) {
@@ -225,6 +230,11 @@ async function obtenerNEOHoy() {
     TTL_HOY
   );
 
+  // Persistir datos nuevos de la API en datos.json
+  if (result.source === "api") {
+    persistirEnDatosJson(result.data);
+  }
+
   return {
     asteroides: result.data,
     fuente: result.source,
@@ -244,7 +254,8 @@ async function obtenerNEORango(fechaInicio, fechaFin) {
   let fromCache = 0;
   let fromApi = 0;
 
-  for (const [start, end] of windows) {
+  for (let wi = 0; wi < windows.length; wi++) {
+    const [start, end] = windows[wi];
     const key = `range:${start}:${end}`;
 
     // 🧠 CACHE INTELIGENTE:
@@ -265,8 +276,10 @@ async function obtenerNEORango(fechaInicio, fechaFin) {
       fromCache++;
     } else {
       fromApi++;
-      // Delay para no saturar la API
-      if (windows.indexOf([start, end]) < windows.length - 1) {
+      // Persistir datos nuevos de la API en datos.json
+      persistirEnDatosJson(result.data);
+      // Delay para no saturar la API (fix: usar índice del loop, no indexOf)
+      if (wi < windows.length - 1) {
         await sleep(DELAY_BETWEEN_REQUESTS);
       }
     }
@@ -423,6 +436,49 @@ function calcStats(data) {
 // Transformación NASA → Formato interno
 // ═══════════════════════════════════════════════════════════
 
+// Contador global para IDs secuenciales de NASA
+let _nasaIdCounter = 0;
+const _nasaIdMap = new Map(); // mapea neo_reference_id → "NAxxxx"
+
+/**
+ * Inicializar el contador de IDs NASA leyendo el máximo actual de datos.json
+ */
+function _initNasaIdCounter() {
+  try {
+    const raw = fs.readFileSync(DATOS_FILE, "utf-8");
+    const datos = JSON.parse(raw);
+    const arr = Array.isArray(datos) ? datos : datos.asteroides || [];
+    let maxNum = 0;
+    for (const item of arr) {
+      const id = String(item.id);
+      if (id.startsWith("NA")) {
+        const num = parseInt(id.slice(2), 10);
+        if (!isNaN(num) && num > maxNum) maxNum = num;
+        _nasaIdMap.set(item._nasaRefId || id, id);
+      }
+    }
+    _nasaIdCounter = maxNum;
+  } catch {
+    _nasaIdCounter = 0;
+  }
+}
+_initNasaIdCounter();
+
+/**
+ * Genera un ID único con prefijo "NA" para un objeto NASA.
+ * Si el mismo neo_reference_id ya fue visto, reutiliza su ID.
+ */
+function generarIdNASA(neoRefId) {
+  const refKey = String(neoRefId);
+  if (_nasaIdMap.has(refKey)) {
+    return _nasaIdMap.get(refKey);
+  }
+  _nasaIdCounter++;
+  const newId = "NA" + String(_nasaIdCounter).padStart(3, "0");
+  _nasaIdMap.set(refKey, newId);
+  return newId;
+}
+
 function transformarDatos(data) {
   const resultado = [];
 
@@ -444,8 +500,10 @@ function transformarDatos(data) {
       );
 
       if (obj.absolute_magnitude_h < 25) {
+        const nasaId = generarIdNASA(obj.neo_reference_id || obj.id);
         resultado.push({
-          id: Number(obj.id),
+          id: nasaId,
+          _nasaRefId: String(obj.neo_reference_id || obj.id),
           nombre: obj.name,
           magnitud: obj.absolute_magnitude_h,
           diametro,
@@ -460,6 +518,64 @@ function transformarDatos(data) {
   }
 
   return resultado;
+}
+
+// ═══════════════════════════════════════════════════════════
+// Persistencia NASA → datos.json
+// ═══════════════════════════════════════════════════════════
+
+/**
+ * Persiste datos de la NASA en datos.json.
+ * Transforma al formato compatible {id, magnitud, diametro, albedo}
+ * y evita duplicados por ID.
+ */
+function persistirEnDatosJson(datosNASA) {
+  if (!datosNASA || datosNASA.length === 0) return;
+
+  try {
+    // Leer datos actuales
+    const raw = fs.readFileSync(DATOS_FILE, "utf-8");
+    const datosActuales = JSON.parse(raw);
+    const arr = Array.isArray(datosActuales) ? datosActuales : datosActuales.asteroides || [];
+
+    // Set de IDs existentes
+    const idsExistentes = new Set(arr.map((d) => String(d.id)));
+
+    // Agregar solo entradas nuevas (formato compatible con el schema principal)
+    let nuevos = 0;
+    for (const neo of datosNASA) {
+      const id = String(neo.id);
+      if (!idsExistentes.has(id)) {
+        arr.push({
+          id: neo.id,
+          nombre: neo.nombre,
+          magnitud: neo.magnitud,
+          diametro: neo.diametro,
+          albedo: neo.albedo,
+          velocidad: neo.velocidad,
+          distancia: neo.distancia,
+          peligroso: neo.peligroso,
+          fecha: neo.fecha,
+          fuente: "nasa",
+        });
+        idsExistentes.add(id);
+        nuevos++;
+      }
+    }
+
+    if (nuevos > 0) {
+      fs.writeFileSync(DATOS_FILE, JSON.stringify(arr, null, 2), "utf-8");
+      console.log(`[Persistencia] ${nuevos} nuevos asteroides NASA guardados en datos.json (total: ${arr.length})`);
+
+      // Notificar al servicio para recargar cache en memoria
+      try {
+        const { recargarDatos } = require("./servicio");
+        recargarDatos();
+      } catch { /* ignora si hay ciclo circular en primera carga */ }
+    }
+  } catch (err) {
+    console.error("[Persistencia] Error al guardar en datos.json:", err.message);
+  }
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -533,5 +649,6 @@ module.exports = {
   fusionarDatos,
   detectarAnomalias,
   compararConHistorico,
+  persistirEnDatosJson,
   cache,
 };

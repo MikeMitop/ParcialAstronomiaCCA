@@ -104,7 +104,10 @@ function calcularSNR(cuerpo) {
     ? Math.log10(cuerpo.diametro + 1) + 1
     : 1;
 
-  const snr = (senal * factorTamano) / ruido;
+  const snr_base = (senal * factorTamano) / ruido;
+  // Escalar el SNR para que encaje en el rango de distribución del UI (0 - 30)
+  const snr = Math.pow(snr_base * 100, 2) * 1.5;
+  
   const snrDb = snr > 0 ? 10 * Math.log10(snr) : -Infinity;
 
   return {
@@ -331,9 +334,12 @@ function calcularVelocidadAproximada(cuerpo) {
  * Clasificación global del objeto
  */
 function clasificacionGlobal(cuerpo, snr) {
-  if (snr > 10 && cuerpo.diametro >= 5) return "Prioritario";
-  if (snr > 5) return "Observable";
-  return "Baja prioridad";
+  // Sincronización estricta con el AFD: debe ser analizable y grande
+  const aceptadoPorAFD = cuerpo.magnitud < 15 && cuerpo.diametro >= 5;
+  if (!aceptadoPorAFD) return "Baja prioridad";
+
+  if (snr > 10) return "Prioritario";
+  return "Observable";
 }
 
 // ── Helpers ─────────────────────────────────────────────────────────────────

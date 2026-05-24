@@ -26,8 +26,19 @@ function cargarDatos() {
   return Array.isArray(datos) ? datos : datos.asteroides ?? [];
 }
 
-// 🔥 Cache en memoria
-const ASTEROIDES = cargarDatos();
+// 🔥 Cache en memoria (invalidable)
+let ASTEROIDES = cargarDatos();
+
+/**
+ * Recarga los datos desde disco (se llama después de persistir datos NASA)
+ */
+function recargarDatos() {
+  ASTEROIDES = cargarDatos();
+  graficasLoaded = false;
+  console.log(`[Servicio] Datos recargados: ${ASTEROIDES.length} asteroides`);
+}
+
+let graficasLoaded = false;
 
 // ── Búsqueda ────────────────────────────────────────────────────────────────
 
@@ -38,7 +49,7 @@ function buscarCuerpo(criterio) {
 
   return (
     ASTEROIDES.find((a) => {
-      if (String(a.id) === texto) return true;
+      if (String(a.id).toLowerCase() === texto) return true;
       if (a.nombre && a.nombre.toLowerCase() === texto) return true;
       return false;
     }) ?? null
@@ -169,4 +180,5 @@ module.exports = {
   obtenerDefinicionAutomata: obtenerDefinicion,
   obtenerEstadisticas,
   obtenerAnalisisAvanzado,
+  recargarDatos,
 };
