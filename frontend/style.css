@@ -1192,6 +1192,48 @@ body {
   animation: highlight-pulse 1.5s ease-out forwards;
 }
 
+/* ── Classification Filter Buttons ──────────────────────── */
+
+.filter-group {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: 100px;
+}
+
+.btn-filter {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 100px;
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.btn-filter:hover {
+  color: var(--text-primary);
+  background: rgba(78, 168, 246, 0.06);
+}
+
+.btn-filter.active {
+  background: rgba(78, 168, 246, 0.15);
+  color: var(--accent-blue);
+  box-shadow: 0 2px 8px rgba(78, 168, 246, 0.15);
+}
+
+/* ── Master Dashboard 4-column Grid ────────────────────── */
+
+.master-dashboard {
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
 /* ── Footer ─────────────────────────────────────────────── */
 
 .app-footer {
@@ -1260,6 +1302,15 @@ body {
 
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .master-dashboard {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .filter-group {
+    width: 100%;
+    justify-content: center;
   }
 
   .props-grid {

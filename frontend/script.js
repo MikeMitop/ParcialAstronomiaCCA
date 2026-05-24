@@ -7,9 +7,8 @@
  *  - Mostrar la definición formal del autómata
  *  - Listar el catálogo de asteroides
  */
-const API_BASE = window.location.hostname.includes("localhost")
-  ? "http://localhost:3000"
-  : "https://parcialastronomiacca.onrender.com";
+
+const API_BASE = "/api";
 
 // ═══════════════════════════════════════════════════════════
 // Starfield Animation
@@ -143,6 +142,24 @@ document.addEventListener("DOMContentLoaded", () => {
   if (btnLiveToggle) {
     btnLiveToggle.addEventListener("click", () => toggleLiveMode());
   }
+
+  // Lote filter handlers
+  document.querySelectorAll("#lote-filter-group .btn-filter").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#lote-filter-group .btn-filter").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      if (loteFullData) renderLoteResult(loteFullData, btn.dataset.filter);
+    });
+  });
+
+  // Catalogo filter handlers
+  document.querySelectorAll("#catalogo-filter-group .btn-filter").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#catalogo-filter-group .btn-filter").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      if (catalogoFullData) renderCatalogoFiltered(btn.dataset.filter);
+    });
+  });
 });
 
 // ═══════════════════════════════════════════════════════════
@@ -341,20 +358,42 @@ function renderEventSequence(eventos) {
 // Batch Analysis
 // ═══════════════════════════════════════════════════════════
 
+let loteFullData = null;
+
 async function ejecutarLote() {
   const area = document.getElementById("lote-result-area");
   area.innerHTML = renderSpinner("Procesando todos los asteroides...");
 
   try {
     const data = await apiFetch("/analisis");
-    area.innerHTML = renderLoteResult(data);
+    loteFullData = data;
+
+    // Show filter buttons
+    const filterGroup = document.getElementById("lote-filter-group");
+    if (filterGroup) filterGroup.style.display = "flex";
+
+    // Reset filter to "todos"
+    document.querySelectorAll("#lote-filter-group .btn-filter").forEach((b) => b.classList.remove("active"));
+    const todosBtn = document.getElementById("lote-filter-todos");
+    if (todosBtn) todosBtn.classList.add("active");
+
+    renderLoteResult(data, "todos");
   } catch (err) {
     area.innerHTML = renderError(err.message);
   }
 }
 
-function renderLoteResult(data) {
+function renderLoteResult(data, filterMode = "todos") {
   const { total, clasificados, descartados, resultados } = data;
+  const area = document.getElementById("lote-result-area");
+
+  // Apply filter
+  let filtered = resultados;
+  if (filterMode === "clasificados") {
+    filtered = resultados.filter((r) => r.aceptado);
+  } else if (filterMode === "descartados") {
+    filtered = resultados.filter((r) => !r.aceptado);
+  }
 
   let html = `
     <div class="stats-grid">
@@ -373,9 +412,13 @@ function renderLoteResult(data) {
     </div>
   `;
 
-  if (resultados && resultados.length > 0) {
+  if (filtered && filtered.length > 0) {
     html += `
       <div class="card" style="overflow-x:auto;">
+        <p style="color: var(--text-secondary); margin-bottom: 12px; font-size: 0.85rem;">
+          Mostrando: <strong>${filtered.length}</strong> de ${total}
+          ${filterMode !== "todos" ? ` (${filterMode})` : ""}
+        </p>
         <table class="batch-table">
           <thead>
             <tr>
@@ -387,11 +430,11 @@ function renderLoteResult(data) {
             </tr>
           </thead>
           <tbody>
-            ${resultados
+            ${filtered
               .map(
                 (r) => `
                 <tr>
-                  <td>${r.id}</td>
+                  <td>${escapeHtml(String(r.id))}</td>
                   <td class="name-cell">${escapeHtml(r.nombre || "—")}</td>
                   <td class="events-cell">${r.eventos.join(" → ")}</td>
                   <td>${r.estadoFinal}</td>
@@ -407,9 +450,16 @@ function renderLoteResult(data) {
         </table>
       </div>
     `;
+  } else {
+    html += `
+      <div class="result-empty">
+        <div class="empty-icon">💭</div>
+        <p>No hay resultados para el filtro "${filterMode}"</p>
+      </div>
+    `;
   }
 
-  return html;
+  area.innerHTML = html;
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -545,6 +595,7 @@ function renderStateDiagram(def) {
                   stroke="${color}" stroke-width="1.5" marker-end="${marker}"
                   ${isReject ? 'stroke-dasharray="4,4" opacity="0.7"' : ""} />`;
 
+
         // Label
         const labelX = (startX + endX) / 2 + (dy !== 0 ? -14 : 0);
         const labelY = (startY + endY) / 2 + (dy !== 0 ? 4 : -10);
@@ -629,6 +680,8 @@ function renderTransitionMatrix(def) {
 // ═══════════════════════════════════════════════════════════
 
 let catalogoLoaded = false;
+let catalogoFullData = null;
+let catalogoAnalysis = null;
 
 async function loadCatalogo() {
   if (catalogoLoaded) return;
@@ -636,58 +689,123 @@ async function loadCatalogo() {
   const area = document.getElementById("catalogo-area");
 
   try {
-    const data = await apiFetch("/asteroides");
+    // Load both asteroid data and analysis data in parallel
+    const [asteroideData, analisisData] = await Promise.all([
+      apiFetch("/asteroides"),
+      apiFetch("/analisis"),
+    ]);
     catalogoLoaded = true;
 
-    if (!data.asteroides || data.asteroides.length === 0) {
+    if (!asteroideData.asteroides || asteroideData.asteroides.length === 0) {
       area.innerHTML = `<div class="result-empty"><div class="empty-icon">📭</div><p>No hay asteroides en la base de datos</p></div>`;
       return;
     }
 
-    let html = `
-      <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.9rem;">
-        ${data.total} asteroides registrados
-      </p>
-      <div style="overflow-x:auto;">
-        <table class="batch-table">
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Nombre</th>
-              <th>Magnitud (H)</th>
-              <th>Diámetro (km)</th>
-              <th>Albedo</th>
-              <th>Acción</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${data.asteroides
-              .map(
-                (a) => `
-                <tr>
-                  <td>${a.id}</td>
-                  <td class="name-cell">${escapeHtml(a.nombre || "—")}</td>
-                  <td>${formatNum(a.magnitud)}</td>
-                  <td>${formatNum(a.diametro)}</td>
-                  <td>${formatNum(a.albedo)}</td>
-                  <td>
-                    <button class="btn btn-secondary" style="padding:6px 14px; font-size:0.8rem;"
-                            onclick="analizarDesde('${escapeAttr(String(a.id))}')">
-                      🔍 Analizar
-                    </button>
-                  </td>
-                </tr>`
-              )
-              .join("")}
-          </tbody>
-        </table>
-      </div>
-    `;
+    // Build a lookup map from analysis results
+    const analisisMap = new Map();
+    if (analisisData && analisisData.resultados) {
+      for (const r of analisisData.resultados) {
+        analisisMap.set(String(r.id), r);
+      }
+    }
 
-    area.innerHTML = html;
+    // Enrich asteroid data with classification info
+    catalogoFullData = asteroideData.asteroides.map((a) => {
+      const analisis = analisisMap.get(String(a.id));
+      return {
+        ...a,
+        aceptado: analisis ? analisis.aceptado : false,
+        estadoFinal: analisis ? analisis.estadoFinal : "Sin analizar",
+      };
+    });
+    catalogoAnalysis = analisisData;
+
+    // Show filter buttons
+    const filterGroup = document.getElementById("catalogo-filter-group");
+    if (filterGroup) filterGroup.style.display = "flex";
+
+    renderCatalogoFiltered("todos");
   } catch (err) {
     area.innerHTML = renderError(err.message);
   }
+}
+
+function renderCatalogoFiltered(filterMode = "todos") {
+  const area = document.getElementById("catalogo-area");
+  if (!catalogoFullData) return;
+
+  let filtered = catalogoFullData;
+  if (filterMode === "clasificados") {
+    filtered = catalogoFullData.filter((a) => a.aceptado);
+  } else if (filterMode === "descartados") {
+    filtered = catalogoFullData.filter((a) => !a.aceptado);
+  }
+
+  const totalClasificados = catalogoFullData.filter((a) => a.aceptado).length;
+  const totalDescartados = catalogoFullData.length - totalClasificados;
+
+  let html = `
+    <div class="stats-grid" style="margin-bottom: 16px;">
+      <div class="stat-card">
+        <div class="stat-value total">${catalogoFullData.length}</div>
+        <div class="stat-label">Total</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value accepted">${totalClasificados}</div>
+        <div class="stat-label">Clasificados</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value rejected">${totalDescartados}</div>
+        <div class="stat-label">No Clasificados</div>
+      </div>
+    </div>
+    <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.9rem;">
+      Mostrando: <strong>${filtered.length}</strong> de ${catalogoFullData.length} asteroides
+      ${filterMode !== "todos" ? ` (${filterMode})` : ""}
+    </p>
+    <div style="overflow-x:auto;">
+      <table class="batch-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Magnitud (H)</th>
+            <th>Diámetro (km)</th>
+            <th>Albedo</th>
+            <th>Estado</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${filtered
+            .map(
+              (a) => `
+              <tr>
+                <td>${escapeHtml(String(a.id))}</td>
+                <td class="name-cell">${escapeHtml(a.nombre || "—")}</td>
+                <td>${formatNum(a.magnitud)}</td>
+                <td>${formatNum(a.diametro)}</td>
+                <td>${formatNum(a.albedo)}</td>
+                <td>
+                  <span class="mini-badge ${a.aceptado ? "accepted" : "rejected"}">
+                    ${a.aceptado ? "Clasificado" : a.estadoFinal}
+                  </span>
+                </td>
+                <td>
+                  <button class="btn btn-secondary" style="padding:6px 14px; font-size:0.8rem;"
+                          onclick="analizarDesde('${escapeAttr(String(a.id))}')">
+                    🔍 Analizar
+                  </button>
+                </td>
+              </tr>`
+            )
+            .join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+
+  area.innerHTML = html;
 }
 
 /** Quick analysis from catalog */
@@ -799,6 +917,15 @@ async function loadGraficas() {
   } catch (err) {
     document.getElementById("chart-card").innerHTML = renderError(err.message);
   }
+}
+
+/**
+ * Force reload graficas (called when NASA data is newly persisted)
+ */
+function reloadGraficas() {
+  graficasLoaded = false;
+  graficasData = null;
+  loadGraficas();
 }
 
 function getFilteredData() {

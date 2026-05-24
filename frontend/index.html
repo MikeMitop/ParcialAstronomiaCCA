@@ -29,7 +29,7 @@
 
     <!-- Master Dashboard Global -->
     <div class="container" style="margin-bottom: 24px;">
-      <div class="stats-grid master-dashboard" id="master-dashboard" style="display: grid; gap: 16px;">
+      <div class="stats-grid master-dashboard" id="master-dashboard" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
         <div class="stat-card">
           <div class="stat-value total" id="md-total">0</div>
           <div class="stat-label">Asteroides Tratados</div>
@@ -113,7 +113,14 @@
               <div class="card-description">Procesa todos los asteroides a través del autómata</div>
             </div>
           </div>
-          <button class="btn btn-primary" id="btn-lote"><span>⚡</span> Ejecutar Análisis Completo</button>
+          <div class="lote-controls" style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+            <button class="btn btn-primary" id="btn-lote"><span>⚡</span> Ejecutar Análisis Completo</button>
+            <div class="filter-group" id="lote-filter-group" style="display: none;">
+              <button class="btn-filter active" data-filter="todos" id="lote-filter-todos">Todos</button>
+              <button class="btn-filter" data-filter="clasificados" id="lote-filter-clasificados">✅ Clasificados</button>
+              <button class="btn-filter" data-filter="descartados" id="lote-filter-descartados">❌ Descartados</button>
+            </div>
+          </div>
         </div>
         <div id="lote-result-area">
           <div class="result-empty">
@@ -234,6 +241,11 @@
               <div class="card-title">Catálogo de Asteroides</div>
               <div class="card-description">Base de datos de cuerpos menores (fuente: NEOWISE — NASA)</div>
             </div>
+          </div>
+          <div class="filter-group" id="catalogo-filter-group" style="display: none;">
+            <button class="btn-filter active" data-filter="todos" id="catalogo-filter-todos">Todos</button>
+            <button class="btn-filter" data-filter="clasificados" id="catalogo-filter-clasificados">✅ Clasificados</button>
+            <button class="btn-filter" data-filter="descartados" id="catalogo-filter-descartados">❌ No Clasificados</button>
           </div>
           <div id="catalogo-area">
             <div class="spinner-wrapper">
