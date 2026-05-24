@@ -17,7 +17,8 @@ class CuerpoMenor {
    * @param {number} datos.albedo
    */
   constructor({ id, nombre, magnitud, diametro, albedo }) {
-    this.id = id;
+    // Aceptar IDs numéricos y strings (ej: "NA001")
+    this.id = (typeof id === "string" || typeof id === "number") ? id : null;
     this.nombre = nombre || `Asteroide-${id}`;
 
     this.magnitud = Number(magnitud);
@@ -26,6 +27,7 @@ class CuerpoMenor {
 
     // 🔥 Validación fuerte
     if (
+      this.id == null ||
       !CuerpoMenor.esNumeroValido(this.magnitud) ||
       !CuerpoMenor.esNumeroValido(this.diametro) ||
       !CuerpoMenor.esNumeroValido(this.albedo)
