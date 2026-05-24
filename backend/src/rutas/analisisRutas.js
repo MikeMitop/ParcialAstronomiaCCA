@@ -13,6 +13,7 @@ const {
   fusionarDatos,
   detectarAnomalias,
   compararConHistorico,
+  persistirEnDatosJson,
   cache,
 } = require("../servicio/nasaApi");
 const { cargarDatos } = require("../servicio/servicio");
@@ -202,6 +203,27 @@ router.get("/tiempo-real/comparacion", async (req, res) => {
  */
 router.get("/tiempo-real/cache", (req, res) => {
   return res.json(cache.getStats());
+});
+
+/**
+ * POST /api/tiempo-real/persistir
+ * Fuerza la persistencia de datos del cache de la NASA a datos.json
+ */
+router.post("/tiempo-real/persistir", async (req, res) => {
+  try {
+    // Si queremos persistir forzosamente todo lo que hay en cache
+    // El cache puede tener keys de días/rangos, habría que extraer la data
+    // Una forma simple es obtener lo de hoy y persistirlo
+    const result = await obtenerNEOHoy();
+    persistirEnDatosJson(result.asteroides);
+    
+    return res.json({
+      mensaje: "Datos persistidos correctamente",
+      total: result.asteroides.length
+    });
+  } catch (err) {
+    return res.status(500).json({ error: err.message });
+  }
 });
 
 
