@@ -1,91 +1,50 @@
 {
   "entries": {
-    "neo:today:2026-04-06": {
+    "neo:today:2026-05-24": {
       "data": [
         {
-          "id": 3639439,
-          "nombre": "(2013 LB)",
-          "magnitud": 22.8,
-          "diametro": 0.1184520597,
+          "id": "NA001",
+          "_nasaRefId": "3547175",
+          "nombre": "(2010 SX11)",
+          "magnitud": 24.8,
+          "diametro": 0.04715661435,
           "albedo": 0.15,
-          "velocidad": 6.2253128386,
-          "distancia": 23528644.04147128,
+          "velocidad": 7.4308556706,
+          "distancia": 61675247.13642719,
           "peligroso": false,
-          "fecha": "2026-04-06"
+          "fecha": "2026-05-24"
         },
         {
-          "id": 3671119,
-          "nombre": "(2014 JS54)",
-          "magnitud": 21.21,
-          "diametro": 0.24634435615,
+          "id": "NA002",
+          "_nasaRefId": "3788165",
+          "nombre": "(2017 UL44)",
+          "magnitud": 23.8,
+          "diametro": 0.07473819705,
           "albedo": 0.15,
-          "velocidad": 20.4447380473,
-          "distancia": 65809377.09317943,
-          "peligroso": true,
-          "fecha": "2026-04-06"
+          "velocidad": 19.6538708338,
+          "distancia": 51651196.86064549,
+          "peligroso": false,
+          "fecha": "2026-05-24"
         },
         {
-          "id": 3844004,
-          "nombre": "(2019 SP2)",
-          "magnitud": 24.02,
-          "diametro": 0.0675371324,
+          "id": "NA003",
+          "_nasaRefId": "3893381",
+          "nombre": "(2019 WV)",
+          "magnitud": 24.97,
+          "diametro": 0.04360563515,
           "albedo": 0.15,
-          "velocidad": 10.605268316,
-          "distancia": 12933515.730156098,
+          "velocidad": 19.0818311441,
+          "distancia": 70125937.34397802,
           "peligroso": false,
-          "fecha": "2026-04-06"
-        },
-        {
-          "id": 54269642,
-          "nombre": "(2022 GR2)",
-          "magnitud": 23.53,
-          "diametro": 0.08463356150000001,
-          "albedo": 0.15,
-          "velocidad": 34.1200907974,
-          "distancia": 37984978.15459939,
-          "peligroso": false,
-          "fecha": "2026-04-06"
-        },
-        {
-          "id": 54352569,
-          "nombre": "(2023 FT5)",
-          "magnitud": 23.79,
-          "diametro": 0.07508317285,
-          "albedo": 0.15,
-          "velocidad": 20.1664863369,
-          "distancia": 71350628.74405289,
-          "peligroso": false,
-          "fecha": "2026-04-06"
-        },
-        {
-          "id": 54354860,
-          "nombre": "(2023 HH2)",
-          "magnitud": 24.88,
-          "diametro": 0.04545091355,
-          "albedo": 0.15,
-          "velocidad": 14.4234716217,
-          "distancia": 43866022.59264515,
-          "peligroso": false,
-          "fecha": "2026-04-06"
-        },
-        {
-          "id": 54606983,
-          "nombre": "(2026 FP6)",
-          "magnitud": 24.498,
-          "diametro": 0.0541929281,
-          "albedo": 0.15,
-          "velocidad": 4.662658443,
-          "distancia": 26530839.396101534,
-          "peligroso": false,
-          "fecha": "2026-04-06"
+          "fecha": "2026-05-24"
         }
       ],
-      "timestamp": 1775476990794,
+      "timestamp": 1779641233212,
       "ttl": 3600000
     }
   },
   "meta": {
-    "lastSaved": "2026-04-06T12:03:10.794Z",
+    "lastSaved": "2026-05-24T16:47:13.213Z",
     "totalEntries": 1
   }
 }
